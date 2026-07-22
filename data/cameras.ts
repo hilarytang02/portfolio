@@ -7,6 +7,8 @@ import type { MediumType } from '@/types/photo';
 export const CAMERAS = {
   'nikon-coolpix-s33': { label: 'Nikon Coolpix S33', type: 'digital' },
   'nikon-lite-touch-100w': { label: 'Nikon Lite Touch Zoom 100W', type: 'film' },
+  'iphone-11': { label: 'iPhone 11', type: 'phone' },
+  'iphone-11-pro': { label: 'iPhone 11 Pro', type: 'phone' },
   'iphone-15': { label: 'iPhone 15', type: 'phone' },
 } as const satisfies Record<string, { label: string; type: MediumType }>;
 

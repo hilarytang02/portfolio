@@ -17,9 +17,22 @@ export const CONTINENTS: readonly Continent[] = [
   'Antarctica',
 ];
 
-export type Category = 'people' | 'nature' | 'city';
+export type Category =
+  | 'people'
+  | 'nature'
+  | 'city'
+  | 'architecture'
+  | 'animal'
+  | 'other';
 
-export const CATEGORIES: readonly Category[] = ['people', 'nature', 'city'];
+export const CATEGORIES: readonly Category[] = [
+  'people',
+  'nature',
+  'city',
+  'architecture',
+  'animal',
+  'other',
+];
 
 export type MediumType = 'digital' | 'film' | 'phone';
 

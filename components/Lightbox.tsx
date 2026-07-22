@@ -29,9 +29,13 @@ function MetaLines({ photo }: { photo: Photo }) {
     ? `${cameraLabel(photo.medium.camera)} · ${photo.medium.filmStock}`
     : cameraLabel(photo.medium.camera);
 
+  // Collapse the redundant "City, City" when a place has no distinct city
+  // (e.g. Hong Kong, Taiwan) — show the name once.
+  const place = city === country ? city : `${city}, ${country}`;
+
   return (
     <div className="flex flex-col gap-1.5 text-ink-secondary" style={META_STYLE}>
-      <span>{`${city}, ${country} · ${continent}`}</span>
+      <span>{`${place} · ${continent}`}</span>
       <span>{medium}</span>
       <span>{`${photo.year} · ${photo.category}`}</span>
     </div>

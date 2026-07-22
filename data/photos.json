@@ -1,38 +1,188 @@
 [
   {
-    "id": "lisboa-2024",
-    "filename": "lisboa-2024.webp",
-    "width": 1067,
-    "height": 1600,
-    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUAB4APu1qr1Czpi6iqAqqcB2JZwDKABd07qAA/uK08PdoZ62/ySR6gYi69DYAAAA=",
-    "featured": true,
-    "title": "Alfama mornings",
+    "id": "mendoza-2024",
+    "filename": "mendoza-2024.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABQBQCdASoUABsAPuVgpU2pJaOiMAwBIByJZgCxH1XDVHbV1YEX3ZxPukUxp2BtKGUFQNAAzidpD/iGz90f6eIGUT1D2u6SO7wgcmbUtExswTY4MW0cQNBzysveyHtn3pJMYDSWtNva6LgT/irV+Og7lok7I/D9W5MWIot2B72c74JpfzA1gfnCJSEv0zMrhIUSUgAA",
+    "featured": false,
     "location": {
-      "city": "Lisboa",
-      "country": "Portugal",
-      "continent": "Europe"
+      "city": "Mendoza",
+      "country": "Argentina",
+      "continent": "South America"
     },
     "year": 2024,
     "medium": {
-      "type": "film",
-      "camera": "nikon-lite-touch-100w",
-      "filmStock": "Kodak Portra 400"
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
     },
-    "category": "city"
+    "category": "nature"
   },
   {
-    "id": "porto-2023",
-    "filename": "porto-2023.webp",
-    "width": 1600,
-    "height": 1067,
-    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAA0APu1kqU2/paQiMAgD8B2JZQCw7DBRvlYAAP7XMUEw9ZRfV2f6nk8RU3SIYAA=",
+    "id": "mendoza-2024-2",
+    "filename": "mendoza-2024-2.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoUAA8APu1iqU2ppaOiMAgBMB2JYwDImB6P17Yr/xJCakt1xgAA/vK51HzH6gcPGn9hoBZkOXCQYFoQkmJyjvk8fxrP89iS+l/mg9VNf7iis7yeqLumaAlDQcczg8/yoxcwnplQ7w95u5UchoMAAA==",
+    "featured": true,
+    "location": {
+      "city": "Mendoza",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "other"
+  },
+  {
+    "id": "mendoza-2024-3",
+    "filename": "mendoza-2024-3.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoUAA8APu1kqU4ppaOiMAgBMB2JaAC7MoABbtbBFyNGngAA/ncWK7nfu/qwVbM42stHPp5tK0XPJ8Pqghkg7FRr5it6074/pAGsIyxICTqTAAAA",
+    "featured": true,
+    "location": {
+      "city": "Mendoza",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "mendoza-2024-4",
+    "filename": "mendoza-2024-4.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBgCdASoUABsAPuVepU2pJSOiMAwBIByJYgCxDIs7/4DdoAQP6TTtjwLhOD+YA94Z0dN570Kq/UAA/ueIsnuTzX6fOjVFMCmViyuVD/hFVGcdo3DhxEJ/mPjoadqV5dPZdVAkVzVy9NZiK9Iprs6odYiRAvxfRc0wshDjkfdJDH5/YlDd3tIqmQeRLsSDgLhh17IKOAAAAA==",
+    "featured": true,
+    "location": {
+      "city": "Mendoza",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "mendoza-2024-5",
+    "filename": "mendoza-2024-5.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdMoGv/gN8Wn9j/O/LXmYAAMsboUAPuB9iMqxk+55quA8Iz5LkP2tAE/Klvx22e5JEnuo2V8KA+FTSHC7UZeR84bPAQbN+mmLxUDXw7/t58r31YR+Ley/KWpvzjWEV6w4vGvZk7jfJwS3cOdsbguAAAA==",
     "featured": false,
     "location": {
-      "city": "Porto",
-      "country": "Portugal",
-      "continent": "Europe"
+      "city": "Mendoza",
+      "country": "Argentina",
+      "continent": "South America"
     },
-    "year": 2023,
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "mendoza-2024-6",
+    "filename": "mendoza-2024-6.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JbACdEf/gK71lkBiuFgvaQADKD77m7nj+ZRLy3suhzLiX1jGPONAXewKTnMkrqbkStNwbTsGav++nA7+BX/4BgDZowDs5XzkhRuTjrAsVTgfUTR67V5wjuvHJQ+xFmzP4sphVTeyP0XzarGyCosTjIAA=",
+    "featured": true,
+    "location": {
+      "city": "Mendoza",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "other"
+  },
+  {
+    "id": "patagonia-2024",
+    "filename": "patagonia-2024.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwBACdASoUAA8APu1iqU2ppaQiMAgBMB2JZwCdMoADTqxv/wTyvWy7GAAA/sLb3S/NumDsWd3oJ62qgdxgkFOzXuiS+cCum/Y7IACeT/lF0o86zvrAAA==",
+    "featured": true,
+    "location": {
+      "city": "Patagonia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "patagonia-2024-2",
+    "filename": "patagonia-2024-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAADQBACdASoUABsAPu1mqk2ppaQiMAgBMB2JZQC+SCHEuuLvoRU4Hi+Vztdr3tLSAAD+3pDmKAdlUnzKfaIlZAtdkV2S2mnDHjFnj63XHgwrJueSc4brgxe0WOS/Gm40JuOBNPd01LYmnonh3VHwz47/8aFnqBJnDmKShGRaNaiD1lkuXObIgnhGo1m1FzvlBonNjzkGDf97IbYXx4zHNAgAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Patagonia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "ushuaia-2024",
+    "filename": "ushuaia-2024.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACQBACdASoUABsAPu1urlIppiQiqAgBMB2JYwCdMoR5aBTdRu7F8sFnoA5aUAAA/sOEolQQgj1bceRv1ktQmNNF5jRH4xaWH9oE9g9vFANy+QX3yCT8uXMlCqKdakXJW7tf5ldkHwEsdUnID6Kv+97vOZNYwYdUjSMMgAAA",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "ushuaia-2024-2",
+    "filename": "ushuaia-2024-2.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JQBOgA9KWLWv05STuYYQyAAD+xYTAaEkCm6OP9SQoII0eOOsX3UyVyheygREITeBFE+C4jGAuEAGNQRUyNxckBxNN+gfCLQX2Y6GvW9xg0lQLE5yb7YjCIrI7qyNAwAA=",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
     "medium": {
       "type": "digital",
       "camera": "nikon-coolpix-s33"
@@ -40,32 +190,970 @@
     "category": "city"
   },
   {
-    "id": "barcelona-2024",
-    "filename": "barcelona-2024.webp",
-    "width": 1280,
-    "height": 1600,
-    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUABkAPu1sqlEzpaijqAqqcB2JZwAARiBPeAD+3dc+g/ReYVijaxCEKVtko8eYEAA=",
+    "id": "ushuaia-2024-3",
+    "filename": "ushuaia-2024-3.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoUAA8APu1iqU2ppaQiMAgBMB2JQBOmUGMABBMXiKQuR9gOIAD8UvZ4IoZW98L/CKHNHiPvIdNwgS0KW8c9pxXC6damH0LjbzKaFV2+9s8ggUJQbHgAAA==",
     "featured": false,
     "location": {
-      "city": "Barcelona",
-      "country": "Spain",
-      "continent": "Europe"
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
     },
     "year": 2024,
     "medium": {
-      "type": "phone",
-      "camera": "iphone-15"
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "ushuaia-2024-4",
+    "filename": "ushuaia-2024-4.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADQBACdASoUABsAPu1kq06ppaQiKA1RMB2JQBftbRBTCqRPAIqp0Clca1LVsBt+AAD+1G3f3AlQ4NjaMKsozf47eZVTa91A0OgZnWX01dbCnDJLtY5dN59LDAnkYayCOy4Ktol0w27KUe0yF41V/qqnXweYwRAFo0SilUnnSyvqADkFV6fxBTvGOElsFynvOLCce5AA",
+    "featured": true,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "ushuaia-2024-5",
+    "filename": "ushuaia-2024-5.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAABwBQCdASoUABsAPu1opk2ppiMiMBgMATAdiWUAvkg0ygTvePlRzJ9IolJ7mREBZYspTRgAAP7FD91njPJBHP7SFwcRCN1b0oqoVzh/ZwsCoery/LqVX1sI2kUGtWlXs4ij7Sh7b2Iro8UkSEYPzJkKKjXXP19BmYFJkTVhBDtAPJ+MbcteZdxD33YH/jgzDQ5YKoQvXH+pA+DpVhtXwBwPDv7RqzUDwAA=",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "city"
+  },
+  {
+    "id": "ushuaia-2024-6",
+    "filename": "ushuaia-2024-6.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwAwCdASoUAA8APu1kqk4ppaQiMAgBMB2JYwC7AB6VUR+pestThAD+xAFWUoSx5F5y3OFssoU3XQ/o+cgSfHG8nX0n5vGpEWH7JVgqUMQY/Ini8aD7xauHAFrcYMRY3HhxmQLe2c8vh2pAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "city"
+  },
+  {
+    "id": "ushuaia-2024-7",
+    "filename": "ushuaia-2024-7.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADwBACdASoUABsAPu1ur1IppiQiqAgBMB2JZQDKtFbQIE3P0wEcTMh6papX44Q0ugAA/u+3FIA8edZUGXUmWS8isSHKOUBUOnkFDnzA2CwANWhvMQlvVgm6nU7LziI8scT2La6psfxUW3tknkyVuaHtntjieF+njVpgU4EKfmdN7A1Qj0sfFiOQeBM36KW/H2QDetQAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "ushuaia-2024-8",
+    "filename": "ushuaia-2024-8.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASoUABsAPu1orVCppaQiqAqpMB2JZwAIEAHy28psc6MXAhCZCYpnbqGzigFzAAD+5yfKcfmVurVlQ3Wt5zOj9m8x7y4egnqr5toolEW5Ue39lhy1pKovnnTzy1vPWvxD/yNfY7BoA5/5TgiZSqBrGP46Rta/HwKXUqpccOgpf3rRZF7ZE0biHsHzuFVAAAAA",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "ushuaia-2024-9",
+    "filename": "ushuaia-2024-9.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JZQDKACHWCfOeeVPkgMAA/up8Bnr2zbAbnPslouKE6j3WaOYkf21khmrHzGcoiV5WUT5dWycAvm+ddprMfKGcpnB3o8AA",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
     },
     "category": "people"
   },
   {
+    "id": "ushuaia-2024-10",
+    "filename": "ushuaia-2024-10.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAAAQBgCdASoUABsAPu1or1CppaQiqAqpMB2JZQCw8a0cYFUHD2maG5Pkx5pXJ63+ZJFjMVxLgGhQ0AAA+MXelPsAu0zyNeE8clcR2fHRf8arvgQjkr8VpW0DsiT3UTzW3vro8ZBis9TqMwMl9xVHsopEvTCmgyAUyO9F5z8Hzg+IKbOYVJBYjX6lyt/zIGW/kv1t+Biea1gilu+hEpTQHuNh72nmIA/b3s6UrbhmmxIoKyhwnn16LPhiCtx2+oTKkAA=",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "ushuaia-2024-11",
+    "filename": "ushuaia-2024-11.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JYwC7Ef/gO+lDruwgzbcAAP5ZDPbNHOnrvmYXi4AxJjb1a5QWSWph+lNXGN2vRl0Sl5ONH6MVNCx7qzHUX1xAgRilXzgpD4k5/dgqkF1sTzSOAAA=",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "ushuaia-2024-12",
+    "filename": "ushuaia-2024-12.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACQBACdASoUABsAPu1urlIppiQiqAgBMB2JYwCdAFam5Rh3OudnIoZjLZl8ewAA/tNvsiUnmIuIyc6G5nm6hSJXTc/a+r7/7Q1sQwBcEl0Qz9kYZz/929xDEzg/flJJV7qfZSnvnE3xiBrpEz4vZ1izifjd5KtVsBvPUsZQ7QF9/OLWM/driem/yNfeOhZ7SEnCwIdFSWiyMjdpbhFPNsHHa1OgOj0cgAA=",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "ushuaia-2024-13",
+    "filename": "ushuaia-2024-13.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACQBACdASoUABsAPu1kq06ppaQiKA1RMB2JQBfuKABEl7x9IACeuK5US0kLlYAA/u6Yo0YSyWYr1Q5+jOVnKGmiStcBVIVqZ07Gv5qK5bWV/xrHUwGFlkw87fSGM+oxBxU0dRYKMah8gRkEj4xb3AjXOJo2mHsiG+Aff+PTQ7rQ39F/zs3kKmhK8zKwQAAA",
+    "featured": false,
+    "location": {
+      "city": "Ushuaia",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "bali-2025",
+    "filename": "bali-2025.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQBACdASoUABsAPtlgo02oJiMiN/qoAQAbCWdmQFkmk5qNBY2/uPLBXHED3AAA/ut9keXKljoCLHbvLVbDxh0oLtrQzsXf+kYIbwbbhWiDSnx5o1x+jmh0OhfW/gOtoL03HDOGF/AEdJt98AA=",
+    "featured": false,
+    "location": {
+      "city": "Bali",
+      "country": "Indonesia",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "bali-2025-2",
+    "filename": "bali-2025-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQBACdASoUABsAPuFWpU2opKOiN/qoARAcCWUAvzghYvZVKkufQ5xGZ3T0gwAA3JsBXExE/8DbjbbrJMQqQ+dStbIFuJxpvef9rkFtwA86TX4QNWQ8SeLHEgnOcboI8UReJzq63r6KgVXILx4erTkChTfjQ1LjZ/AAAA==",
+    "featured": false,
+    "location": {
+      "city": "Bali",
+      "country": "Indonesia",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "cebu-2025",
+    "filename": "cebu-2025.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAACwBQCdASoUABsAPu1qr1CppaQiqAqpMB2JYwB4plP88AAYtjfspTZNgtFWkMJeGm80kdxKbAAA/mge1/fldAzIBfONuxlzxBZGziHeNcriFNriD0LFq9+LbqeNWySf121g6f84HkqqtBTdTaUMp4aBy44ISNJJpyloGkRnwBM0YgC5KJsIAyiGQCiPr4RXfmbeesBQRUJjt3TTz37sWAnA3AKKexQiXB/l17gEn4KA6AAA",
+    "featured": true,
+    "location": {
+      "city": "Cebu",
+      "country": "Philippines",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "cebu-2025-2",
+    "filename": "cebu-2025-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBQCdASoUABsAPuVipE2pJaOiMAwBIByJZQDLpCHgmCHz1ThuNuQ8evRL+e3uTVdj8AD+6oP02kX3teFsrysHbVvlSp17wCDwbfgfcsG6kKv/p6hioY8DLODBaH4P7/CNOtTloVeR9NWSHLt15pyMsvfn7hWD+EFtJNB8WlvCbhzlfIHlLNmsmYTj+Ss9d+z61FPSkAA=",
+    "featured": false,
+    "location": {
+      "city": "Cebu",
+      "country": "Philippines",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "hong-kong-2025",
+    "filename": "hong-kong-2025.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAAAQBQCdASoUABsAPu1qrlCppaQiqAqpMB2JZwDKtA3xMDjd3OehGFB1erRsU7hVrd9QAP6+TFM0YAcnRXjUowTvThr3ifXa4l5Shvup9ooCDmfGIzeXdzjwErK3QhhwrYL9tmIfNaV4uKJ6RBQfLToSvGIRy/z0RYBh0zgv4Klyv7QRTB/nMmVYQYmsayUeTmqYquHn4OwlGfR0w6OoyFH/R/Zm5DqjODL5q3Fvd2KSaecCzCNGXPbeH5gHtk8ORAAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2025-2",
+    "filename": "hong-kong-2025-2.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JQBOgAtxDkO/oEJ8AAP7l8XqYqvD+YMsix+gMJsSPvzQ/tF8sJGwhUJ9FN93oJlYuqWiMUk/TFYzcsxkuafPYi7zDNb319OeppVY1FGQjToZA2q+WUQWl6tRPy9HZwmyMqGFVAy8Oz2IAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "other"
+  },
+  {
+    "id": "kuala-lumpur-2025",
+    "filename": "kuala-lumpur-2025.webp",
+    "width": 1647,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoUAB0APu1mqk2ppaQiMAgBMB2JZQDLLDKMDsX79aP+03UOVKAA/t9AsndFYj7SBct7q82dTDyl91ZI9o4i1XAJpPeyMsrSjnhAZOeWxdOfwhyJ4snJB9RDLxbpbf1a9AK17n2ctgzCIEXAOGFaRSW4xbrLzGgvpn9d6dC76sxx1ne676GgtrPAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "kuala-lumpur-2025-2",
+    "filename": "kuala-lumpur-2025-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACQBACdASoUABsAPulepE2pJSMiMAwBIB0JZwC4qCLEz2W6lZ2ggYODik3dy8AA9vbT5DvQXP96r173980667Ri201/9ZJ0UEE4f1IzBBds5Xz8j1PnMpAVhqs0LpKCtfNNhRFIcyXPoAAA",
+    "featured": false,
+    "location": {
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "kuala-lumpur-2025-3",
+    "filename": "kuala-lumpur-2025-3.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAQBQCdASoUABsAPuFUpU2opCOiN/qoARAcCWoAnTKEgUgkUkqgahe7AcpAPiFrzpQAAM3N5zVdxisY2gefPnmzAAL2AsaZB8TIKtCyoWRDsrt/XfcNFf2piyxwQ18QloJ2LZ7ev125AeKej1JKUeIw6ObFeYX6ofPpMqZdNlXRuFUv8juIzdzD8GZ6EsQLhdbi1ubXVoHsnhGKAAA=",
+    "featured": false,
+    "location": {
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "kuala-lumpur-2025-4",
+    "filename": "kuala-lumpur-2025-4.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRgIBAABXRUJQVlA4IPYAAADwBQCdASoUABsAPuVipE2pJaMiMAwBIByJagDBBIAVx9mADqwqjJPr29tsRRBj83l1dOMwRPwhgAD+6dgBsenU9DtSPl/qdrkjMuJeTZhhO4WBPN0LAH1qDTNRa9WSeSQr5x2AsTHXutFJQ9xwznjWlIL+PWTDrr82pLFQHIllGHdavr4mC0Brw+YvUuH8i4ptiqQ+x/P+5ypKF5JYQIGT5glXmys3HUoAo26LXCqwopWSjNVbd4CnK7v9ohJZB6ASptFTVlkAdeJJ8qg9ktbvOnG1dkJqbFc2KzdRI/H4ETqdwXLSHa4TCMybTjUkP/f2iokgAAA=",
+    "featured": true,
+    "location": {
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "medellin-2025",
+    "filename": "medellin-2025.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwCw7B7HPFeqZ0y5gAbAAP7pXQ4dBmwOJDqF/sxLjqeL7xnFHL0pboCiRG/QvgXldAXTHvsqcr51D5TTPEguixQFZhgip1aFnxvl0zwsR4sGh44VNkWQMXCe7j9i48FXjdi/n8z3RPdXVVDGY13uD5pCV6PwAAA=",
+    "featured": false,
+    "location": {
+      "city": "Medellin",
+      "country": "Colombia",
+      "continent": "South America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "other"
+  },
+  {
+    "id": "medellin-2025-2",
+    "filename": "medellin-2025-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRh4BAABXRUJQVlA4IBIBAABwBgCdASoUABsAPu1ip02ppaOiMAgBMB2JbACsOcC0A4QCilN3SDv5W7v4t4rCZEC8JZkPkqEYjmeqWRAA/tb+DHd0c59aEFwDZ52IfjH/1TCNHnngOJj7TyAX/mr+4P2GbCdv0A//N+pqkyAnKx4rnDZmQqTPlfHRitTmO3c35UhiSA792Q+DG3IL5JF1hVJsHY7g6ga5C8Ra7VES/l1QmL7aOc4iyo1NeKa5Gihtob6gwwdnR+7hpRAy9HNE0KicKFgWZ/Dkt51dX2A02ggbLJSvSdt25RagrIIqhhSZSoe6W8ynVVU/JFOPVys1K4TJMw3BRWYjAwwXQm1F23wEiW6vftXutxtP/0u+f6IQMAAA",
+    "featured": false,
+    "location": {
+      "city": "Medellin",
+      "country": "Colombia",
+      "continent": "South America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "medellin-2025-3",
+    "filename": "medellin-2025-3.webp",
+    "width": 1798,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRiIBAABXRUJQVlA4IBYBAABwBgCdASoUABsAPu1irE+ppSQiMBgIATAdiWIAtRsktt0awqA6wJAy56AujbQQzvlDklUi7z7UeCaL6vIAze9/DKS4+QR/8IotUQD6q5WZAIhykEY+vPnKB71uj5popxqgPM03rmzzWZW49h1qvVLnqmodn5JCfpXa+ExozGR74DjZtI1cpp8nHXz9w+AbTZD7lVO67l9bpWiGvJ9qE4OTd9Ef3NZC1l3yd2r+x1mSezoYliUc8y/AcfhZzMPpzutOP2NVzlvcDoIl5CG1NUkMxHnjNFk2HSmC3/9FLxlCFYjYj9e32KGvGNQQhwjuyRbagCmuwvN6BLniYsKH5OoZNtIGzFX7BB3I24R71njRjJhqOAZAAA==",
+    "featured": false,
+    "location": {
+      "city": "Medellin",
+      "country": "Colombia",
+      "continent": "South America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "parca-2025",
+    "filename": "parca-2025.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADQBACdASoUABsAPu1mqk8ppaOiKA1RMB2JYgCdMtpGzliaydPsjWuWyUyGr/jyAAD+094rNUeb2wnvUh1r8GF8eTT1AR3624BJyM77MLvCVmpi4+sWoeiv+CRFHyxkzmEDGo1JPorguUnpTI45m2KTL/EBJfe/59j2D2JtBGaa46MxjoH1LgAA",
+    "featured": false,
+    "location": {
+      "city": "Parca",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "parca-2025-2",
+    "filename": "parca-2025-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwBACdASoUABsAPuVepk2pJSOiN/VYASAciWYAuzLjgr+piQ9/Bz3QgNXzseQWXkAA/t74v8EVz14cvvSn8kYAfi66f/qlCwDrT9knu82CemQ90mmuFU3L0A1H79buVL6gr36qqgOdaUHyx3nIRW4ykWAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Parca",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "other"
+  },
+  {
+    "id": "taipei-2025",
+    "filename": "taipei-2025.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoUABsAPu1krE4ppaSpKA1RMB2JagCdINiHTUcdCzwjO0gI3gAA/tvv8cZxpOOz34jIrLIbPp2oTfUvrP239UpYoNIPpLZqcacitJPj3Zz3iwPfDhO6YQELTVRyRICI3RKRBvX46rDLEs+sZ03BiUaedVe24gAA",
+    "featured": false,
+    "location": {
+      "city": "Taipei",
+      "country": "Taiwan",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "taipei-2025-2",
+    "filename": "taipei-2025-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACQBQCdASoUABsAPu1sqk8ppiOiMBgIATAdiWMAzFg0a8QYHigzeRzumu5dfwfS7iBy3IIcAAD+3MZCZL61hA+yX4/nZ8mjvX8A5Ae0QqlpYu5+QDgG0TO9aipQKS7zMrAYVnUB8/3taU+5gIECOFmq/eJvQ++dd3E9IQ7PgclYEVLTe/qbuOagzjdkaPGgAAA=",
+    "featured": true,
+    "location": {
+      "city": "Taipei",
+      "country": "Taiwan",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "other"
+  },
+  {
+    "id": "taipei-2025-3",
+    "filename": "taipei-2025-3.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAAAQBQCdASoUABsAPu1qrVCppaQiqAqpMB2JZQCsAYyoUozvXC2H1A17D3Er7A/nE44AAP7vDpVqETdSV2BsJxSTZjezzOWp3nfdUYU6Vd54k1Rwzkmbs0eOOgV5K3zmaPXjysd+cCbO0lpoKUJf0dTNK7kB8QHRrhtaxsED9Ucec0kojA1Y6cRp8YReWdAy3pJBKf0GswI/Gtvo6DFMd7uC0aPKwHXpDoCOfO0CoO5pVk5alis9YNeTnwcKjwkfBPEP7k3vEaqX8+CAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Taipei",
+      "country": "Taiwan",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hyderabad-2026",
+    "filename": "hyderabad-2026.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAAAQBQCdASoUABsAPu1ip02ppaMiMAgBMB2JQBadBDv7/mLu5I6ynyaRRkZzWMgG9N8AAP6LkliG059pK9D2WA9AuTBMXodc9WNbNPpd5aN/Z85cCyC7mSkEd4Z56J4ksh2RSXvVDl7Qs1/s1EFEnc5mx+VD8nn1qHgMfFBQALMFCOwbnQNJDdpqTmKHyynhcboZYhhGZ1O00ttRH75vK+qAUtpl76b0+DiDqUAA",
+    "featured": true,
+    "location": {
+      "city": "Hyderabad",
+      "country": "India",
+      "continent": "Asia"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "los-angeles-2026",
+    "filename": "los-angeles-2026.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAQBQCdASoUABsAPu1sqk8ppiOiMBgIATAdiUAVHoaNS/Lin7RkqT5qHSfbAwFzoPqAAP5b2FQw1xpbKVMd6NU+cF36imXNI3yTq5C/R461vsfGjawotzp3Gr4eS+DorSZkiXqTFug4rSxtFxFpcaidM7oP3ZQn4Q6fFkrCoeWwoHom01d0WU6VPtJF2J8nMJ/6tKCfbYfpxYFcpuw5rfYHWkCGfVLsDDXEGDxeSGAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Los Angeles",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "los-angeles-2026-2",
+    "filename": "los-angeles-2026-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABwBACdASoUABsAPuVgpU2pJaOiMAwBIByJZQCo9ESTkyRGJP5PwiS1TAG6AAD+z+7624Ls+CbsEDbyAYs0CZPIGrRMQ40W2fB7g3GlaVHpfSJKsspA6S1ElFFcxohuGfAUqfqMkPpaoTLJZhlGOcKTaKZKEdksGp9W2aCZ1jQ3+0Tpl3NAAA==",
+    "featured": false,
+    "location": {
+      "city": "Los Angeles",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "los-angeles-2026-3",
+    "filename": "los-angeles-2026-3.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABwBQCdASoUABsAPu1ip02ppaOiMAgBMB2JYwCCM68YDyJ+6dbngWN+FdKotzZ8lGMYPMAAAP7F0I3ejjR7I+T63CGWuETcLjsV6+9wWL0t0FWmy2S9CrlCbiX4NzmXUPF4GBwStoG8gX3vy0eWBpruEBy4HtCLOu0EBdvpdhuOjLxHOtAddEq9Y5Z7zRr4p/q0AA==",
+    "featured": true,
+    "location": {
+      "city": "Los Angeles",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "los-angeles-2026-4",
+    "filename": "los-angeles-2026-4.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JYwCdIDZC/yRKGEsauG01bAD+3pP/5gWH3841F8Yy53EjE/fecj7DJk33EfIs2WLatf4/q6+3VDyxQed82tBKr9Yfq326vNLuEFo35WAmKH+2TzTZsgAA",
+    "featured": false,
+    "location": {
+      "city": "Los Angeles",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2026",
+    "filename": "san-francisco-2026.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JZgCxC8ADAoZoyEFu53swAN1HZXpgXggbTW4yXS2VN5/EGy1804SHQr+OFu3WhlHcj4XvPrsB9gVlGQAAgmovzorZUIpDgeFJkV29DnAAAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2026-2",
+    "filename": "san-francisco-2026-2.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JbACsABm3X/8NNAg1p7TKAAD+y3Mf1BqHCvD2Um+AXU0zoXWSNsDgUQkNoolhIf6O8CE6MBH0jUjyo9peaEdSYdF9spSlkt10FDe2oD/yAQUs2JXr7qEK7JRIRt4nvTIcAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2026-3",
+    "filename": "san-francisco-2026-3.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoUAA8APu1kqU2ppaQiMAgBMB2JYwCdH8GJ/gJ7R5yee0bFgAD+uawKCSM3QZZznKGYl1wmJM7F0atfeIP4qkcTogpsHdNwtu2dgAAA",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2026-4",
+    "filename": "san-francisco-2026-4.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAQBQCdASoUABsAPu1mrU+ppSQiMBgIATAdiWQAnTKDNtBnf3cRHgwbgN0lvzhRgSYAAP6M639f7Gwv+NIM41s3WJYh7YVYA4ZvtV61tATUviJ9QDdB4dAjoFy18khR27q9DiNd/sjYgBxkxmB3ad8VNaT+8VRuuHLiwRnjdnbMFhCfPtt5oZqNX+4duSw67bg39DiSpblLcoKLYAA=",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "san-francisco-2026-5",
+    "filename": "san-francisco-2026-5.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwBACdASoUAA8APu1iqU2ppaQiMAgBMB2JYwC06B6UWPQ+rTqz+UvUefAA/shMPQIHnGp8MhC4hD4nlYHgFgdtfjC6Sf1QyfhxGjX2nA5r/hLaMwyF8KZeWNrUxK8QpakAAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "utah-2026",
+    "filename": "utah-2026.webp",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA8APu1kqU4ppaOiMAgBMB2JQBOgBDvo3zvAtrYrKhOYAP6LBkajJ3RmnCWI7XWkQc2Es3hQaA9jaCm+HjWCxF4wdrbv/jxc6yCBNyAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Utah",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "utah-2026-2",
+    "filename": "utah-2026-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADwBACdASoUABsAPu1iqk2ppaQiMBgMATAdiWYAAI9pu/mpZDeiwViDpX9xchkTngAA/lFX/meynZpSqabmxF/uk/Qxk/9etLegjF788LPu4pcESCdNmp1ndH3Ic4iwRR+Ti2kNAlinlrHE1eVwHhT3GzqXAMZLrAAAAA==",
+    "featured": true,
+    "location": {
+      "city": "Utah",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "utah-2026-3",
+    "filename": "utah-2026-3.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADQBACdASoUABsAPu1eqE4ppKOiMBgMATAdiWwAnTM0NbA+81jw1BsRW42xX+LbgAD+cWhUe9XUujQFVv+UwL6IYf+pkzPKCmGgf8jZgc902tINvz8m/GQkIqakReFQ696uUx1hCal0LZAvMfo4TIEqlURv9Lhc1m6Y8UlG6DL7EzXyVoqloYVkfeRprYxx4IxAAA==",
+    "featured": false,
+    "location": {
+      "city": "Utah",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "cinque-terre-2022",
+    "filename": "cinque-terre-2022.webp",
+    "width": 2400,
+    "height": 1350,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACQBACdASoUAAsAPu1iqk4ppaQiMAgBMB2JYgCdMoRwACnBCoH1xJzeDUFisAAA/tZihnL0TIDD3WfsoAlmapV5/EgyGiFUqE/9lvk07uvkZfpPwFuDkv93WEQEe545qBjTyOAA",
+    "featured": false,
+    "location": {
+      "city": "Cinque Terre",
+      "country": "Italy",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Silberra Color 50"
+    },
+    "category": "city"
+  },
+  {
+    "id": "cinque-terre-2022-2",
+    "filename": "cinque-terre-2022-2.webp",
+    "width": 2400,
+    "height": 1396,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAAwAPu1iqU2ppaQiMAgBMB2JZQC7ACHYBN4RcAfjNAD+xMdi0vC0BqdKEvmwj8mZlhbhvtvWdrQCATu1fa4nHWWZ5t/VnsYqlBZGYIyT3HJe4NigAA==",
+    "featured": false,
+    "location": {
+      "city": "Cinque Terre",
+      "country": "Italy",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Silberra Color 50"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "cinque-terre-2022-3",
+    "filename": "cinque-terre-2022-3.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBYdgqQOCeq4boAA/kfo0snpJObMyzsJGMcU4pgiMZFAOEe7N4LcR0B6idiu84eRLrKyoblSQCREOiGl1Vzth6JSD4uVUU+ZU5px4oO4qOhGhz2iUNXayhMpDeEbKXgJnH+XsrK2nTesAAA=",
+    "featured": true,
+    "location": {
+      "city": "Cinque Terre",
+      "country": "Italy",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Silberra Color 50"
+    },
+    "category": "city"
+  },
+  {
+    "id": "cinque-terre-2022-4",
+    "filename": "cinque-terre-2022-4.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JQBOgAhGc5aXA+msAAM40sWSTwIS/J8mgyWlkHbRZLppXZYfobNBomYzsm0lvjPeo3U9UQUSiftPHGJOFQXKNrdRBjOoRxcnGdSCvpugAAA==",
+    "featured": false,
+    "location": {
+      "city": "Cinque Terre",
+      "country": "Italy",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Silberra Color 50"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "colmar-2022",
+    "filename": "colmar-2022.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACQBQCdASoUAB4APu1kqk+ppSOiMBgIATAdiUAWo2yApD+UUoEI+CQvrYOq2FgxjVrDoYqXeAD+6oLyierRjNPV/Y1m3bYISXbo2q9tgtVOeowTyGSxL/onbYfj9QoNM/jKcvzHRBKDTFXarwapnwBb5/PP7qUftH529Uwj2GFayIVjPmTxqJTsQIS9C2QcpjlvfMv2CQfIughn8vb2iYhrq2eLyHAA",
+    "featured": false,
+    "location": {
+      "city": "Colmar",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Gold 200"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "colmar-2022-2",
+    "filename": "colmar-2022-2.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOmUABYYPQNtKjElogA/ie458BgSoTzJ1puabQgvOW3I1PR8QUhmvtsgZaPnPwkoa8s5flLDfI0zZGrOlMk587HN30BHE+PgyTIf+ucsnaAdDV7JBu9gKCCeaw9sePdMKIG8BhcwwfZuGMyfzQfUe5AAA==",
+    "featured": false,
+    "location": {
+      "city": "Colmar",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Gold 200"
+    },
+    "category": "city"
+  },
+  {
     "id": "paris-2022",
     "filename": "paris-2022.webp",
-    "width": 1600,
-    "height": 900,
-    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZQC06C0Hmp0AAP7d18CD5/HxisfBLJ6Vcm5WaAA=",
-    "featured": true,
-    "title": "Seine at dusk",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAABwBQCdASoUAB4APu1mqk2ppaQiMAgBMB2JQBb3AySxmAg718CpUEiF/+9ShG3pzNHDe5CQAP6JuYkFH3CR0E84ZXhFUWOAk19g1JbLp8PdDhysoxBzNxLy8RWXRop/M3MDW6O+LBzxOO2nP5n438I3SkhKI9QopHnQuGc7zMoDwsalg4cYjTULCGurkF8H7YdQeZZke423heg0Ap8cH9gZ2AzlVWSyeGqDVZLHa/ATiOiq0Arm0fHC9oWbVKFpVt/S67GYR3dQAA==",
+    "featured": false,
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Gold 200"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "paris-2022-2",
+    "filename": "paris-2022-2.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JaACdABt0V5tvx1TmVAD8xqK1QopXpX0E3jFxaeRELaE1wb7yZh4A3PEySPCNoW3NfigbB1Gl1UTo5XnSR32PhAhvVa+Sj7GPW72zh/s9RI+AAAA=",
+    "featured": false,
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Gold 200"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "paris-2022-3",
+    "filename": "paris-2022-3.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZQCdIP8gphf5MDSNTZ9B+mzzvcAA/k+eBM8e4Z2HtMuDNdOjJnr2y8V7nv5hS0eIHMTeRMSW29GgSlev7H39vkK6bg+AeUANHI3QxmvoAAAA",
+    "featured": false,
     "location": {
       "city": "Paris",
       "country": "France",
@@ -80,175 +1168,16 @@
     "category": "city"
   },
   {
-    "id": "rome-2023",
-    "filename": "rome-2023.webp",
-    "width": 1400,
-    "height": 1400,
-    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABQAwCdASoUABQAPu1srVIppaQiqAgBMB2JZwDNwBdyjK2oAAD+4rUxeKnV8bBu/D617ItwQbhRwAAA",
+    "id": "paris-2022-4",
+    "filename": "paris-2022-4.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZQCdABmjUa8mvvmeBZMNsVEAAPjX3DrDR40TI8dJv1FnT829bUFuWzbY2VIxDVOs8Bdstk9jmxY9kXS46GbcwX3yiHLeHbqB7skV+72loMnEJRK5OnopR5b9tq+t5AAAAA==",
     "featured": false,
     "location": {
-      "city": "Rome",
-      "country": "Italy",
+      "city": "Paris",
+      "country": "France",
       "continent": "Europe"
-    },
-    "year": 2023,
-    "medium": {
-      "type": "digital",
-      "camera": "nikon-coolpix-s33"
-    },
-    "category": "city"
-  },
-  {
-    "id": "tokyo-2025",
-    "filename": "tokyo-2025.webp",
-    "width": 1067,
-    "height": 1600,
-    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUAB4APu1qrVCzpa4iqAqqcB2JZwDM0Bd07qAA/uPZf7dfTEYaNUxT06mfTsGiAAA=",
-    "featured": true,
-    "title": "Shinjuku neon",
-    "location": {
-      "city": "Tokyo",
-      "country": "Japan",
-      "continent": "Asia"
-    },
-    "year": 2025,
-    "medium": {
-      "type": "film",
-      "camera": "nikon-lite-touch-100w",
-      "filmStock": "Fujifilm Superia 400"
-    },
-    "category": "city"
-  },
-  {
-    "id": "kyoto-2025",
-    "filename": "kyoto-2025.webp",
-    "width": 1600,
-    "height": 1200,
-    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUAA8APu1iqk26JaQiMAgDQB2JZQCw7EYIoAD+0CY4q9ZRfPEN7amSW/rY3KDgAAA=",
-    "featured": false,
-    "title": "Arashiyama",
-    "location": {
-      "city": "Kyoto",
-      "country": "Japan",
-      "continent": "Asia"
-    },
-    "year": 2025,
-    "medium": {
-      "type": "phone",
-      "camera": "iphone-15"
-    },
-    "category": "nature"
-  },
-  {
-    "id": "hanoi-2023",
-    "filename": "hanoi-2023.webp",
-    "width": 1067,
-    "height": 1600,
-    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUAB4APu1qrVCzpa4iqAqqcB2JZwDO7Bd07qAA/uCPOndogQn8tFJNb0CoyxTfHwAAAA==",
-    "featured": false,
-    "location": {
-      "city": "Hanoi",
-      "country": "Vietnam",
-      "continent": "Asia"
-    },
-    "year": 2023,
-    "medium": {
-      "type": "film",
-      "camera": "nikon-lite-touch-100w",
-      "filmStock": "Kodak Portra 400"
-    },
-    "category": "people"
-  },
-  {
-    "id": "bangkok-2022",
-    "filename": "bangkok-2022.webp",
-    "width": 1600,
-    "height": 1067,
-    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAgCdASoUAA0APu1iqk2/paQiMAgD8B2JZwAAfj4AAP7cCE3SWw2nswm5xKNzr2bxearwqibi8UAA",
-    "featured": false,
-    "location": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "continent": "Asia"
-    },
-    "year": 2022,
-    "medium": {
-      "type": "digital",
-      "camera": "nikon-coolpix-s33"
-    },
-    "category": "city"
-  },
-  {
-    "id": "new-york-2024",
-    "filename": "new-york-2024.webp",
-    "width": 1280,
-    "height": 1600,
-    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUABkAPu1ur1KzpiQnqAgCcB2JZwDNwBdzJMAA/t9QXgWuop+Q+wL3WVGgPF6QGAA=",
-    "featured": true,
-    "title": "Midtown grid",
-    "location": {
-      "city": "New York",
-      "country": "United States",
-      "continent": "North America"
-    },
-    "year": 2024,
-    "medium": {
-      "type": "film",
-      "camera": "nikon-lite-touch-100w",
-      "filmStock": "Ilford HP5 Plus"
-    },
-    "category": "city"
-  },
-  {
-    "id": "san-francisco-2023",
-    "filename": "san-francisco-2023.webp",
-    "width": 1600,
-    "height": 900,
-    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZQAAibJ9BOdoAAD+0CZZpthxdXeyXBgo+jGR8cAAAA==",
-    "featured": false,
-    "location": {
-      "city": "San Francisco",
-      "country": "United States",
-      "continent": "North America"
-    },
-    "year": 2023,
-    "medium": {
-      "type": "phone",
-      "camera": "iphone-15"
-    },
-    "category": "nature"
-  },
-  {
-    "id": "mexico-city-2024",
-    "filename": "mexico-city-2024.webp",
-    "width": 1400,
-    "height": 1400,
-    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUABQAPu1ur1KppiQiqAgBMB2JZwDE2BdzJMAA/uK1MXip1fGwC7Pfqi54VeyGrgAAAA==",
-    "featured": false,
-    "location": {
-      "city": "Mexico City",
-      "country": "Mexico",
-      "continent": "North America"
-    },
-    "year": 2024,
-    "medium": {
-      "type": "digital",
-      "camera": "nikon-coolpix-s33"
-    },
-    "category": "people"
-  },
-  {
-    "id": "cusco-2022",
-    "filename": "cusco-2022.webp",
-    "width": 1600,
-    "height": 1200,
-    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUAA8APu1iqU26JaQiMAgDQB2JZQC06C5JAAD+4I+OKvWXWLrNO6d2wfi8wqKMAAA=",
-    "featured": false,
-    "title": "Sacred Valley",
-    "location": {
-      "city": "Cusco",
-      "country": "Peru",
-      "continent": "South America"
     },
     "year": 2022,
     "medium": {
@@ -259,32 +1188,1512 @@
     "category": "people"
   },
   {
-    "id": "buenos-aires-2023",
-    "filename": "buenos-aires-2023.webp",
-    "width": 1067,
-    "height": 1600,
-    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUAB4APu1qrlCzpa4iqAqqcB2JZwDM0Bd07qAA/uTlzC3RGGjXNtaCKerPZs3D92vgAA==",
+    "id": "paris-2022-5",
+    "filename": "paris-2022-5.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRvQAAABXRUJQVlA4IOgAAACwBQCdASoUAB4APu1krFAppSQisBgIATAdiUAWHbGOyTt3rjDfrd4+ECxlcutdjekPXLQDg9AAziNAegXRwbEPS3sUn0k5wZiPzLsnHhws1fgB5ntbxCB5ZTvcibQ6Sb2WPG118r5n6crXPPNsOulTk/xqJ+8mSAVH0fmA6j7yh9QILpFviIw9fg9hgsgEWvgYI44y1GUpaCBhGHDxxTBJ8nMQ3mRVkx5fwovN3LwCjyZA6POzxw4wdkElGCnra6S7YKIUgzUeVjJSfOV4XDB75yL5N1uCLo4n1JjhMZA7KH+x3uIk9AAA",
     "featured": false,
     "location": {
-      "city": "Buenos Aires",
-      "country": "Argentina",
-      "continent": "South America"
+      "city": "Paris",
+      "country": "France",
+      "continent": "Europe"
     },
-    "year": 2023,
+    "year": 2022,
     "medium": {
-      "type": "phone",
-      "camera": "iphone-15"
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Gold 200"
     },
     "category": "city"
   },
   {
+    "id": "paris-2022-6",
+    "filename": "paris-2022-6.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAADQBACdASoUAB4APu1sq1EppiOiqAqpMB2JYwCo9A9/0qt6Ty8JCA9ZNDoGyHCLXAD9JVtRCYLiLq45m7ynLvpzLWXBSiwPBXeuBSjRGNo4rgaNXqO6tfLBNqqEq6Nm3z3mwSYcmnrIinkoFvO+kQDhfwT5HeUYYxCgaOLZu4sIglu0EyU9AnNhsA8uQg1aZYJKfJWfjGa1U++ENlJKFBsk2NSH+cbdltTgiUkJsfBX6hYZnZJRHGCYhyNwvz8MpkvGJpdAD94FAAAA",
+    "featured": false,
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Gold 200"
+    },
+    "category": "city"
+  },
+  {
+    "id": "paris-2022-7",
+    "filename": "paris-2022-7.webp",
+    "width": 1589,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASoUAB4APuFep02opSOiMAwBEBwJYwCnFBuwvyBZFgA5s46DFu9c2jMqb6/dAAD+jE9gECXFVUKJn7N3hX3aPQJStkWyGThk3IXH7c7zhQkKiYRm12K2LsfgzAxUtyT3W4cvkuy/jSzQEFMfwzsQVW3MCRidhLRzyFVKzqxu6fbuhwiEov4aKlVeQsz/AAAA",
+    "featured": false,
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Gold 200"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "paris-2022-8",
+    "filename": "paris-2022-8.webp",
+    "width": 2400,
+    "height": 1560,
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYwC2yB7H99U02qhFC6uoAP64O+4ngpTCuoLwz7V5IKOPoGGnnBgmcboeu4ddjP3/8oE9y66xI4G1mE1dxCMhPFqJz+83runALp01FYQcL3JOzWMPYRY4sU4rAD/LJ/DXprx2b6QgAA==",
+    "featured": false,
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Gold 200"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "rome-2022",
+    "filename": "rome-2022.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYgC7ACHhXLJnygjBZybgyTYA/tNJG+Ml6PSnOG6XXY3tKp8CmYZHLDIQi5zaRazt0Pdc1NNInZh4X736NlMWa+uBAZkNyNi+ZNVtB6e5MzAAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Rome",
+      "country": "Italy",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Silberra Color 50"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "rome-2022-2",
+    "filename": "rome-2022-2.webp",
+    "width": 2400,
+    "height": 1656,
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoUAA4APu1iqU2ppaOiMAgBMB2JaACdMoMrZEJcWzRKC6EzbcQA4cECSGJx3dAzaZZJYHk8ZqtfVqSPQWGYgXQ9NT6coinNeqQCQCvRWDL5F0efc7byxc3qWT5TdmibjG6mLrtsquQRAbdwl26awxqEOgAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Rome",
+      "country": "Italy",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Silberra Color 50"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "da-nang-2023",
+    "filename": "da-nang-2023.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBOgBH/wdumFhA6Mm6AA/rE1uvitd1ie5/toM0z1yEFKiT7EiYx6C7aWftbanUULRA/usizuzy65kKKyJY7sF4zGrwX83z4y2jkS3nm0B5uIwqWMOh2IAAA=",
+    "featured": false,
+    "location": {
+      "city": "Da Nang",
+      "country": "Vietnam",
+      "continent": "Asia"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "city"
+  },
+  {
+    "id": "dallas-2023",
+    "filename": "dallas-2023.webp",
+    "width": 2400,
+    "height": 1771,
+    "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JQBWAA7Lpf2zDelDlAK0wAP7MBphlVgNpjeNZM/XIdn6zLU1FqveGDN4+SgnwCd5Z0rdnLBMBYuyuyFgUhsTrQ+59meQFzhB5N0AKADuuBpPxLLnxv0bRJ3COpkr2xcZWewT1OAUuAxH/IVPC9SRgAYwgCaEOIgA=",
+    "featured": false,
+    "location": {
+      "city": "Dallas",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "people"
+  },
+  {
+    "id": "dallas-2023-2",
+    "filename": "dallas-2023-2.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABwBACdASoUAA0APu1iqU2ppaQiMAgBMB2JZgCdH8ACu+K4xaQiKgqWX+1MgADNueKkOh4z46aSc6b/HZasS04m4Bmrxkf27Pc/PVcAZYt4J27DIkW4UbzFaBn6ZQ7sWQYTgJ01dtb7SJlDDw6Yz+eLLMC0Su6yDsO1U7gA",
+    "featured": false,
+    "location": {
+      "city": "Dallas",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "city"
+  },
+  {
+    "id": "dallas-2023-3",
+    "filename": "dallas-2023-3.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZgCdMoADQxkH62qyj6wAAP7uiF+is+RItgq3RJcWdwqVESScfB/cX047AIMB8V+6Z3C5P2niy1XAngAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Dallas",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "other"
+  },
+  {
+    "id": "ha-long-bay-2023",
+    "filename": "ha-long-bay-2023.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBgbg8RLdE6YpfSpi0AA/u0dfGwIxfJqoo8BNTd7HCrFgDHnGx+s/tAHXNAp91pOEph/Kc8RKVN53e5mwwPmU5i+4jYXPNR7+gXjLXIr7FF6rdeftKMwV8agAA==",
+    "featured": true,
+    "location": {
+      "city": "Ha Long Bay",
+      "country": "Vietnam",
+      "continent": "Asia"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2023",
+    "filename": "hong-kong-2023.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYgCsABb2ZxQTNBLcRBgA/oHysXKZ5z8kK8xyx7LXmsAaGa/bDpnXWADvQJaoaduai4nvfPq6ZD7wk2rcrM17vH8QDCnejnirgmtfKytMPGEYR7uFelX9WFQSj/dWupLKjXT4GNMx2sx8Yq26tACBn+gtkCyAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Fujicolor 100"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2023-2",
+    "filename": "hong-kong-2023-2.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JQBWABDrXTgYEnHMAAP7ynfl6jnwNG+7SxipHFWgbKKAq7r0QJtf3/Ob/0COVMvf4lsYEqqxIrjTOGwe2gAAA",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Fujicolor 100"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "hong-kong-2023-3",
+    "filename": "hong-kong-2023-3.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCsEf/gOyHbN/S7hQMDwAD+4aHF2nfkmDJRcoFHBYad7DPExK3dLAAp4e/6NGNg3kaRIS4NoHAR3QZYF0N/Vx71GgzIJRkhWsviQI8n8vjvohxf7hsAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Fujicolor 100"
+    },
+    "category": "city"
+  },
+  {
+    "id": "hong-kong-2023-4",
+    "filename": "hong-kong-2023-4.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQC7ABuoNdkHA/dOshoAAP7ytAoCbqsuX5l20C6OmL4iWfoGU536vh5VPnVvxR3p08hpEWkDude1htngNwNpk5FaFgfgw40xC2iGPHfIfbBh+6MGgUmHK/NDonAA",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Fujicolor 100"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2023-5",
+    "filename": "hong-kong-2023-5.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOmUABk8yLaLHmVOtYAAP66abhotKM8GnDXJDQ3PyI8zsKCDA16F5cnLVdb+iPjYEpCsSgTZAUPh/aVASqrLYbTKzyygM+JANHwon8AAA==",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Fujicolor 100"
+    },
+    "category": "people"
+  },
+  {
+    "id": "new-york-city-2023",
+    "filename": "new-york-city-2023.webp",
+    "width": 2400,
+    "height": 1506,
+    "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOmUAS0wqorbdYnJrET7a+NgADNwQHKQA+kln5EbbpHASWuELIEE/h5xQzjNppTUbT5EbVDqpq4ez5eQR7uuY9ipcwyWr3v0HCz361O+6ku7FtBPo0AAAA=",
+    "featured": false,
+    "location": {
+      "city": "New York City",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "city"
+  },
+  {
+    "id": "new-york-city-2023-2",
+    "filename": "new-york-city-2023-2.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JQBdgBEDIyIX9HT4tdav14AD+rv87M7VZYkTUZraLeEjzHmjEP82JCPa9DRVrgRel072EShnsgM0BsIy2cT41VY8GtLRA7ZxADpQwpcg9GsfwgQAAAA==",
+    "featured": false,
+    "location": {
+      "city": "New York City",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "city"
+  },
+  {
+    "id": "new-york-city-2023-3",
+    "filename": "new-york-city-2023-3.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdMoADThIVJJrfu2W6aAD+6nVDipm7ambcVh/6QqOJhMeh7ONlHBo4Uhc3UWVLGoaSQjBhoeZFgJAX6hdBo2DA2vu/gC+4G7B+7OUAAA==",
+    "featured": false,
+    "location": {
+      "city": "New York City",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "city"
+  },
+  {
+    "id": "new-york-city-2023-4",
+    "filename": "new-york-city-2023-4.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYgCdEf/i2QHJikOFsk0lFKYOgAD+7NeW3ic2bvdjFLRfbzwOnUxpCk5VRtC38lrPTKD/+9eCvY5PQmCoZfpsQ68GXQvjxlx5mu2XMFurPIZNHk+dpDjv+wt2f1hvjfAWiLn5bzR/uz+dIdJmLhaXccEnJNvyww57RGmnPxgAAA==",
+    "featured": false,
+    "location": {
+      "city": "New York City",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023",
+    "filename": "san-francisco-2023.webp",
+    "width": 897,
+    "height": 875,
+    "blurDataURL": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAAAQBQCdASoUABQAPu1urlIppiQiqAgBMB2JYwCxHy/Bw5Y1WlWI8dxJ+k0NZQ0zicwAAP7ujFEWGw+U4fH1O06YsgK8NDzpoEYu5VFSa7LDB9nmwkqDwd39me2uEQphxdpb2Jld6z0WQ8S7PN1szL8oVt7W6EX4FZKfIGxH6Ou2d4JaS2bY3VgqleqeeqQ2uhy6AwVLDWmpNYCGtS8MJeNcB+1z6VECEmW5sMfeElmy/oIZXan8JrqFdjAAAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "city"
+  },
+  {
+    "id": "san-francisco-2023-2",
+    "filename": "san-francisco-2023-2.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA0APu1kqU2ppaOiMAgBMB2JZQCdACPtv8mHjXPmAPmwAP61vR8tBVCt5ssyxYdpAOy6TiIVaKxtTVhKTyBkuxOiJH9oS8GtUrwQvkND822qgAA=",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-3",
+    "filename": "san-francisco-2023-3.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZAC06CIcXG/kqgrR88TymYQAAP7dfZHL4a40vRxYnYdN32ZDEDOLjWh+y6ZZMdC+NM/S5vwP75nOLsgsMilKC/U2zKw6BxxNDYydhnqe485JiHQpk4Z1bNi+p7nwiV0kOE3t9tRd48vINIzqAAAA",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-4",
+    "filename": "san-francisco-2023-4.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APu1mqk4ppaOiMAgBMB2JQBOgBA6Bbbs+mPZefpcAAP4/PWwxjclO3QAcKF9ritb9duvxfFyYYiaHrDPP25FD5rop8g0EtHAAAAA=",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "city"
+  },
+  {
+    "id": "san-francisco-2023-5",
+    "filename": "san-francisco-2023-5.webp",
+    "width": 2400,
+    "height": 3620,
+    "blurDataURL": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADwBACdASoUAB4APu1kqk2ppaQiMAgBMB2JYgCzgCHfQWyEZhTO3lM1E9068gUhOjAA/sM/2UsT714/Zmkfk1X4xDB+31xbOEv/URPEgxb325rhJ0CGmV5tPGqSzHhmwNZuNr+Ns0jR4lEX7U3+/nfagp3/KZ3FbTGNEdexKn5LiSkBdnt70B9Acfde54jD0Zba6/RcDgIQf/+0qRgAAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "city"
+  },
+  {
+    "id": "san-francisco-2023-6",
+    "filename": "san-francisco-2023-6.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYgCdMoACKVj3guoB4i4A/rvaapM40x1jpjbWn78wdYkKEApQmdgwY9DY64oYHY9Oe5J2+FvrX+qXtsxVvLtp6r6F0DQcDx70iX9dvWnlRyjQg5hWAAAA",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "city"
+  },
+  {
+    "id": "san-francisco-2023-7",
+    "filename": "san-francisco-2023-7.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdACIPVAh47HIIle4AAP7jNcbU36v+wHIN3HkAb6LDnwWivijbSxgDr+OdDcQvvXqZcD+SH6vZVWOH7VzBett5zn7KNpWRO1oay4jTO3bpmAA=",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-8",
+    "filename": "san-francisco-2023-8.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYgCdMoAvQBcd6cp2lyge6m8i4AD9wIOb+S3Df9RccMW6AjytKidgMDMHadEiedJfsGQ386Q5DpZQz5iky1UOfVqm15MRP7RohrZFChwCj1el8uSsTMvIXagAAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-9",
+    "filename": "san-francisco-2023-9.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBajUABpDWl1+sueapwA/c7ob23asVetyXwKtvrSwzbYAAJyxO8jYz4uxuIKu3rEKAWrVh6PG9lxy9LHRx5kWVwxwhCBYm5a3lMpXhMrX9HCT0YZySAA",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-10",
+    "filename": "san-francisco-2023-10.webp",
+    "width": 2400,
+    "height": 3620,
+    "blurDataURL": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAACwBQCdASoUAB4APu1sq1EppaOiqAqpMB2JQBftW+nANqAQXqBFQHzV706XT2BRvQuOM4x/sAAAzjtyavGsZagJZ2Lybmxi11AebPl8OVZxynsfJNuVbgAl8z1mHHr8NPYqUKzj1fxfyMvQTs+gypa0fUHvMo+Lr8ZAeez2ogxqH/fL8shMWN86r00mCrT2IygTyu1PD2LHymBp6/NIg7BO+iDfep2nz7z6qaXPItNfjgGKQvqhuORhpbA+lYf26R4+v3vRa1ukq3RHynNcAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "city"
+  },
+  {
+    "id": "san-francisco-2023-11",
+    "filename": "san-francisco-2023-11.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYgCdABUOM9yONWxvwy/MAPfLq1LeYbdjXCbh2IOncPOj2Nv9OZOmKSW1toJnLs+yDFXAfInmr7YbDztdl2u6nySZM//OPMZcNBntVb9Ch7/FJV/ITdyT1o12xfZ+T4icF4StXGtG7K5Zn/GVQZQ428cKLAAA",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Cinestill 400D"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-12",
+    "filename": "san-francisco-2023-12.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZQAAW9b1Zh5if+6NsoAA/ucQ9WmJAxHdNU3h6rcaq+dVl+EXfOcP6MXzi7gBfbnrFffP4tNsSwE+vRKbpTF8vaEK3cYYB8W49NRd4l01ejAA",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-13",
+    "filename": "san-francisco-2023-13.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoUAA0APu1iqU2ppaQiMAgBMB2JZQC06B09Q6nm587bOUMGIAD+5j4K+XjuUJCp5ZdWZl6cXRQe1iYTNXzi+cob3XtmfVK1RbHDbcUpJ8GCqlEHJXQk6kXcoJz8OPFZaQDIq/k0Rj1t6LDBqFutpVPnOF3iGh+/3Id8AA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-14",
+    "filename": "san-francisco-2023-14.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JYwAAW+Nprtcrn8i1WOAA/u0+BdF8y7qoXAHIMmUEU9CptZ3WzkwiTBEPhBH38kchf9PMFUa0mMgU/Rz+PyqwdnLtuxWoaTgFCbgPIgAAAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-15",
+    "filename": "san-francisco-2023-15.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JagCdOUAAzcyx7nzWYsMfrjt4AAD+g0sDHVz92keQq0Ajf971b48oamMQGhphQ2lNLOiWIOuOTEzSWDg3Cp1lHrqmS1jk9KGpG3NpB0ogS0VoELr0ZuQcFnWDS2wNvKypcyEaM4pP9bNvaY0XKbCrS1QgAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-16",
+    "filename": "san-francisco-2023-16.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JYwCdAB6HIjht2p2ctMgA/sj/BS2JfZ3tPuaSoq+oBaztoE2fwK3VvGCBKuRQDdKbteXkBFz4PNDVFu1GXWMqxC4uG9LQa3Ex8bLKQNUsp3DOwZ3P7Ww1sS615x8cAAA=",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-17",
+    "filename": "san-francisco-2023-17.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQBibBDv7wQQtgXqFwAD+7TZm7n2LqNZUqS7GlXCTNcXGRLE0l6FjkUq9BQ/2ulMbg5r7361Nb3ZqOT5yBFPCT79XqMpYx4uiTOXkZ8tgAMAA",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-18",
+    "filename": "san-francisco-2023-18.webp",
+    "width": 2400,
+    "height": 3620,
+    "blurDataURL": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAAAwBgCdASoUAB4APu1kqU2ppaQiMAgBMB2JQBftXRnAX8E50L8ZWDGFRED9WNYw0FlHf2vJ7Afu45aAAPlvC9UDVO517o6bxzF72rzCE4jfQXPIQKsa0XrW469ha7KT/1q6knDBLvHg71wbvmJRMoPVLyISA4fVtOSEQPDsGXawPUxFjx+Se547IVsI0VPZLZIeHXPyRSNjxZ8jizyHvXJDuMVFfVlloucLhqqyY2pP7mrkUdVsMcIwTzz0qBd5NVK0qRkRlkI2l+I7F9eIvDeTIrCEKZ9unudZelYpTgu5ihe+vswCI64ZmJyp+tekzAAAAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "city"
+  },
+  {
+    "id": "san-francisco-2023-19",
+    "filename": "san-francisco-2023-19.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQCsACPcIN/rNW3rXAAA/tyzF5OTwA2tuh5f4FY5PztY1BhOs0raD/XXj+0CgiRyeatbnV6EMHxD/62+1F0J0oB9X/jp1L/KavZVOZ16jvPMxZQCSAAA",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-20",
+    "filename": "san-francisco-2023-20.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYwC2yCPg6nVYKl1iUmr7bwAA/vKxz+dDGvsZODpgw0eKaA1viHGuIAr7XCZlg2lKoPVE3NUA1mYYQnqlSd2xvDdNyz4XOqx3qtm7nRxeL2pl2ihJEw50G/VA0SEwy+JyxewAAAA=",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-21",
+    "filename": "san-francisco-2023-21.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAACwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQAAWp2rHDPwjhxaNAD+6p0SqfYaKl2FE6AHnasMTHylMaS7usP3k9e1aJqaCqLVhBoM/qoIFUkNlZZvSGzsiV+RgGO52e4pXtwY2fEvn9X9NkQq7JJHGx+pTVpncCmfPHDIbDQAAA==",
+    "featured": true,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "city"
+  },
+  {
+    "id": "san-francisco-2023-22",
+    "filename": "san-francisco-2023-22.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQAD5FE7vgHE97LiYAD+6sBAfW1LYyJ+0mJ7kRD4IbrhcW/ssHIXS6nIrtGoogOsl7dw0DgGvygAzsPq8d31KLSTsp3X7Z80saXPh+3r3vEf0MCHW458wkP34DmpPplInVXwPPVWPvaBz0wJNn5iAAA=",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "city"
+  },
+  {
+    "id": "san-francisco-2023-23",
+    "filename": "san-francisco-2023-23.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYwAD5enmrFrtoB840UexYAD8MJTwqg14P8ip1j9zoY+3i7SO5Uj+kRyILp5LLeSiw/fEPw9g1lN4ZWdsnTBMfOrotcALi+xZAs+dl6sAWop09RL5peJvEike8bnlKhV9daf3x4dnU577iAvrN8T5SqMzgxMzQAZnmw4ugAA=",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "san-francisco-2023-24",
+    "filename": "san-francisco-2023-24.webp",
+    "width": 1591,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAAAwBQCdASoUAB4APu1cqk4ppKOiMBgMATAdiUAYG4aGwKAuYY/Y+7DwygUaaI93CtRfygD+7a49X5vzP4p18wScXoCce86RUqO1eIY+5dPv1ZoyNRxlCM8Fpfe/yjPLpzSG5sMSD+MlPL5uQ3n86bqYIrSoqAt4nmXSZtryjBJBZo1g7LYqvhlNJaMvlyWb86oIVuoaUeS5xg5W6d9grD5YcM0HavbffwahKxv+eCZH38XlZokDQFDXB0KUw4nB2UxU1gAA",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "other"
+  },
+  {
+    "id": "san-francisco-2023-25",
+    "filename": "san-francisco-2023-25.webp",
+    "width": 862,
+    "height": 911,
+    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACQBACdASoUABUAPu1kqk2ppaQiMBgMATAdiUAXYAIcKgBbJzLlz6QKjBk+yQAA/sOJqRFUIA/hb5an11IEF5RKg4TxW+nLX6qHNd60WH+j1YxHfcLwJsIw4+eoKcC3NXVjvN/in3Ou2YycRC1OZ+KV0pn17RuMmP4/NvrUBhdHAuqJwvHrO8ktjRuauslstWf9iAQAAAA=",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "LomoChrome Metropolis 100-400"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "ait-zineb-2024",
+    "filename": "ait-zineb-2024.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoUAA0APu1mq04ppaQiMAgBMB2JYwC2yCG7xbZJMcGAoqS2AAD+rqr+ZMs10fq8wUhTdTTKnlCO1NBjHfAh0ySdNCLuN+phXN6xyQZuUDqGKN+zeuU2nEQdhM8KWc9F7V+fwb/QAAA=",
+    "featured": false,
+    "location": {
+      "city": "Aït Zineb",
+      "country": "Morocco",
+      "continent": "Africa"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "ORWO Wolfen NC500"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "ait-zineb-2024-2",
+    "filename": "ait-zineb-2024-2.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwBACdASoUAB4APu1mqk8ppaOiKA1RMB2JZwC2yEfxi1ZiXS4HhcIv1qSMdxeetgAA95jFxrgvBsdQaEkSLAkgRNBIRWL+hAfDWCfAnrruOUAAu0GvxhFVjASNJOd2PjFjLpu7yjzSM5UwAAA=",
+    "featured": false,
+    "location": {
+      "city": "Aït Zineb",
+      "country": "Morocco",
+      "continent": "Africa"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "ORWO Wolfen NC500"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "berlin-2024",
+    "filename": "berlin-2024.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZgCdMoADUul5kJEpwPvLAAD+6YCqXTi7sJI6EPP6lofAnz59OQzZnQciNRqnqQ+TWG4/hKqVCvXJOc49hdHyF3WX7hj4QQGIgM4xit2buiUZuBp85YqgAAA=",
+    "featured": false,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "berlin-2024-2",
+    "filename": "berlin-2024-2.webp",
+    "width": 338,
+    "height": 510,
+    "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwBACdASoUAB4APu1ur1KppiQiqAgBMB2JQAAetmXmBGm40TIxyI2lsdl2wuU3rIAA/t+rrzUbYdpqLcjuPD9m2UfXJhvwBO415kDxR7Mn/+eZTcmeYkOHzoE+qFdH06+33RUhA2GNs2EP0366vpT20Td3EW5j3CunsOQYDMQYh/L9/VcVtGOviflvgAAA",
+    "featured": true,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "city"
+  },
+  {
+    "id": "berlin-2024-3",
+    "filename": "berlin-2024-3.webp",
+    "width": 1444,
+    "height": 2178,
+    "blurDataURL": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABQBQCdASoUAB4APu1wsFKppiSiqAgBMB2JZgC1GoM6AJd3HHXFdq/ZR+vpPowD+/BYAAAA1tdTgP6I38MwwfEfuKOJFrgyQT97R5/1UFVjp+w3wpAGCm0Zp7kRLxyh5kGazRkKEA57Nrx7x5gMdSquPyA1zCjFT48PVis/PcP67dd3KO6h+ohtiGq5/UcWyGwTC3oxdPfegZtD/aMAAAAA",
+    "featured": false,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "people"
+  },
+  {
+    "id": "berlin-2024-4",
+    "filename": "berlin-2024-4.webp",
+    "width": 2178,
+    "height": 1444,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZQC06B6R6sp+kAD+P5XKqBrKc1+WMN+ls4/r8/HcspmZSwerb84AAAA=",
+    "featured": false,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "people"
+  },
+  {
+    "id": "berlin-2024-5",
+    "filename": "berlin-2024-5.webp",
+    "width": 338,
+    "height": 510,
+    "blurDataURL": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAADQBQCdASoUAB4APuVgpk2pJaOiMAwBIByJQBWGUABRCGeT+BJ1cXwtRc5y69vLQyR7hDfR1jLgAP7zJUfmnfvV441nIteLzADGxgxrkwnXv6Q4oHaYwAP2U3Sw0CS7CjxYw/AmB9vlThFVAMzLRd2MCJZjOT8gt2D9w5jjjBuClbBhlMS96cddVb4vj3QWt5r+CnKh4bWaqiCMCao+4zzl6hA4fEAGnNQwmfp1bqnmWuAhEWb3lYh2G7cD+ugtqZ3/OL7UWYcpuUGkV8ZxH7bxClPAAA==",
+    "featured": false,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "people"
+  },
+  {
+    "id": "berlin-2024-6",
+    "filename": "berlin-2024-6.webp",
+    "width": 1591,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACQBACdASoUAB4APu1kqU2ppaOiMAgBMB2JZQDBzB8iND3ETA++BBzHUhEplEwA/u7e0TsL4wzshGlAJchfHrsMvrc3qX7FKiTYlW3ZsUupz1z2mokmZX7IKRWzty4+AUW8d73ZciXdbnQ9dh/ZyYAA",
+    "featured": false,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "berlin-2024-7",
+    "filename": "berlin-2024-7.webp",
+    "width": 1444,
+    "height": 2178,
+    "blurDataURL": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAQBQCdASoUAB4APu1gp04ppSMiMBgMATAdiWMAxNg0kaczZ4ezo026bzzUzvucdUeAAP7050/2haqmAT71SJVC0ouHl7iZnAS4UTI7MtmsrJtOVAIHWS6o33ootqwRB6oPXmIcA3eRii5e2EsQNcLTOd6CuDaO2JVMnPiYp+TJaAXtzmWb+cPZLMtnJPTd83Fzm3fXHFChJVIAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "berlin-2024-8",
+    "filename": "berlin-2024-8.webp",
+    "width": 1591,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACwBQCdASoUAB4APu1oq0+ppaOiMBgIATAdiUAVhnLWYwQTT63XRu+xMOnYUsRSSw6l+3AdVzAAzVl0kkM+/JyWM8ePaxZ+2QoKxNsDV083r8d2fhKATLUp4mBkIN4OxQGttp8MU2qphoP5xBGu+XZZxKWLTEhqs3uFNfBS45GfFAB97EC+WIXI6wADAMs0IKuyXyuFmh+A9rILZy+hKQlZ7VI+GNbD4i97NNKOUDCFEwYAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "berlin-2024-9",
+    "filename": "berlin-2024-9.webp",
+    "width": 1444,
+    "height": 2178,
+    "blurDataURL": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAADwBQCdASoUAB4APu1gp02ppSMiMAgBMB2JZgC7ACKyq6KtjuR5N+wOZ1rMNmeOuF4+eI8N2uGLAAD+zRRjukM0pJ37Mw7PfgqF4ynNyEHmp7NQgwPHSgH7jPO307YjntfmCgTuP8hpj09DnIJiBmWDYdiLY+Jgk5yjana6EAQajrVEIV3a7U9znei1K5KYucrRFjKiqcp2gnzSPr0E4o5SGzpg/K2iAB3VAMKK65tn6S2II2hDmqlHA5yKyfW4w88EvR3C9Isw+q4QxI7zcSvjfYm+FAAA",
+    "featured": false,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "people"
+  },
+  {
+    "id": "berlin-2024-10",
+    "filename": "berlin-2024-10.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQAFEAG78+rod85uT9dAAO/BpKR1pw2rDx0SwRlEJSRA+2BCFfH6d+1PtRJR7JcYQ/KrdlLW84+Wi97S0zDsefK7Uugeltz7d9PdkIivun1Gi5tH/28ZpeXJwAAA",
+    "featured": false,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "ORWO Wolfen NC500"
+    },
+    "category": "city"
+  },
+  {
+    "id": "berlin-2024-11",
+    "filename": "berlin-2024-11.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAwBQCdASoUAB4APuVgpE2pJaMiMAwBIByJZQCw7BKfHygw6OO07y/pnKuDtgP3O+nijAD6cM5nHaOccQYbQNQT1xFIyhGnC4cFEKoy0t2GsUXxC9kicFMpYlFQlApPCNT5ARUnI7wWGG+R5SlaCPjXiH1cUx4BJkqT/YIHfwHhGGDAeT8xUduJtTwIDGuF9bCfTtuxu3EcYZwYRAgAAA==",
+    "featured": true,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "ORWO Wolfen NC500"
+    },
+    "category": "city"
+  },
+  {
+    "id": "helsinki-2024",
+    "filename": "helsinki-2024.webp",
+    "width": 2178,
+    "height": 1444,
+    "blurDataURL": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOiP/wEJ8tyCFS4zgAA/vF6KbMwDssTUKqn8NhNXCYvaLi1bCp9ni9BODnV69YuCjaqCAaMxjKvqVPOH7gDxdXAvbraOkvzCmsR3BiCiQLUpDuly80HDf9VsO9HaC7Nniu+vPxduyG3+svfJ1WXvfwAAA==",
+    "featured": false,
+    "location": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2024",
+    "filename": "hong-kong-2024.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAQBQCdASoUAB4APu1sq08ppiOiMBgIATAdiWcAwNwv4qdKbKHB2cUcoccePfa3VBEAAP7vbCPzUnvKkdfe3y6YXUudG5MkuqVMEGf3OYGDpqnnz4JVaa8JUrJ8/qASZMmBAJEBPoXQ6qRjcBXNAvp87jAm47rQKlMswOh2g1wIurvWonx9XTk3dPmGdCP0YAAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "hong-kong-2024-2",
+    "filename": "hong-kong-2024-2.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRgwBAABXRUJQVlA4IAABAADwBQCdASoUAB4APu1qrFEppaQiqAqpMB2JQBafP/xbNFayWgdUvsgLkTsZybSmueKg/ShUIeeHQAD+8zLkmsQQhbgWrafLsey0qDHU6ArCUrKHoPfV8m074qs1hIz6zSq5/kbcS/JeyYTbNjsvZWPMbf/yu/LbOkziBpujLU8BLD+oLkX5mnPSVKh9L3yWNQOK8SJhkMMfy+VQnF83RYSrPh9n8B45iR1PR45rlfCUymwlyo9aJDwuTYetYt1kZUiMa2rA5uZiE7mLgLUx3Ff0oFPDph1TIN3ph6AhqoqVsTnNP7Q+jgYAg5joZx2S6O5a3/6Fban6CoDylYQbEAAA",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2024-3",
+    "filename": "hong-kong-2024-3.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAwBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYgCdABwwrlO4EYCex0zX68AA/uOFlqNTxAmMf82/Fior+ekXS/LKQXuC43LDjng0jUPtpsmWeL33gvn4L/O/MrpRzBUvirAnJR//JvwIO+R1ak+SFI4/xbwFc+9esw+g9v0ddcD240+wlPC46XrIPsA19RtsYwAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2024-4",
+    "filename": "hong-kong-2024-4.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBdgAiSgvuqNJgAA/umdRoQ2A0q5vbDFAygU7AsRaU/n96s2ay2rd1rnazQQ5ZlhsR9VCmQpOSpOnu9hcHIz+bo4zqhUeNJ0Bx4ZgAA=",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "hong-kong-2024-5",
+    "filename": "hong-kong-2024-5.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCsACB0fkWCon6TSMKjAAD+5sl9dj5oeYmDY8I8RADO6tEIP2Fw0gNJ/p5SbeZRPuWCYZBwFy0pMl6x7yjKVY/3KRfnFarrjabT/3JVc3eQSNps6KjxDp2e9sk1Y8IaAAAA",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2024-6",
+    "filename": "hong-kong-2024-6.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADwBACdASoUAB4APu1ur1IppiQiqAgBMB2JZwDDNBBf+AKpY67NZl7rE6/Wk8YpIAAA/tvf9IbzTVULzgQMd/dtB+PUpYIUwtvcQ8o8shN//k7Bogp1bgDBeS26+runucNZOdy6UMlLYrI6yxtPkz+zW1f4Nep8UiskMd1amaaKbJvXPmbM3UaN6AA=",
+    "featured": true,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2024-7",
+    "filename": "hong-kong-2024-7.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZwCw7CECXaJlt3LAAP7nIDfzG4TYD7tvXrVakP2svzKvUMOqz6zgT1um7pvSu6sJmqPwveeypUHsOrgpocnfCwrsTJLrc1mu8h9JQAA=",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2024-8",
+    "filename": "hong-kong-2024-8.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAABwBQCdASoUAB4APu1qq08ppiOiMBgIATAdiWUAuwMvmpiXS2BVINnI6Ep0N7sTGhgdaT4AANwfFoA8l2tfm/H8Wonz0OtCMcfbd+W4wtZJIK4Y0cmTPseF/p+dlYpLQzBP8NpAvf39oTp+J8obe7gmsLZJcweQojcQcPkOWGJgBi/3uLzT0bQVLk+JhqVGlDYRxqfak/QFKf9ddumTYggqba40sHZI9CyHz4TFv0xKWU62Ixg7F5UiAAA=",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "hong-kong-2024-9",
+    "filename": "hong-kong-2024-9.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APu1iqk4ppaQiMAgBMB2JYwCdAB4C5QkUVIJ0wAD8xqFPQwdI6DkLrk9jOeg49KK7Wx5d8lTiOMcDgu2jx/Soea9pcAA=",
+    "featured": false,
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "izmir-2024",
+    "filename": "izmir-2024.webp",
+    "width": 717,
+    "height": 1096,
+    "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwAwCdASoUAB8APu1oqk+ppiOjKA1RMB2JYwDCgFTs7zaDzb90Wvs4AP7pTjuSxObPR4C8oqnlle9slzBlxTQDS52ZbCK68Hlm3N2qGLj491ywC8LHOdqVBA4bGuDR4wLN0kXUY5mku3Dmx1cdnbjMynKsyjVnhts3nO1xs1o/iy5a3zO6AAAA",
+    "featured": false,
+    "location": {
+      "city": "Izmir",
+      "country": "Turkey",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "ORWO Wolfen NC500"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "izmir-2024-2",
+    "filename": "izmir-2024-2.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADQBACdASoUAB4APu1mqk8ppaOiKA1RMB2JZQDOOEXhTk7hbRK3wcpDGkztWLuWoAD+7ZlCXd3wpQPD8U77wh3IqKLHSoco17fXEfQutN2yGEABfDfhTLpjtb8vdTLPijccj1lhLXTz+q79d4xGwojD5J18dfBteOq3fN99ksRhCmLyHsxTuJpB9OWX/2RSF7QW/EAA",
+    "featured": false,
+    "location": {
+      "city": "Izmir",
+      "country": "Turkey",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "ORWO Wolfen NC500"
+    },
+    "category": "other"
+  },
+  {
+    "id": "izmir-2024-3",
+    "filename": "izmir-2024-3.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JZACdACHcf0+seSzQ1AAA/sOJqy6e1gdb0Ew93oJCV24dG+YvVOyNE8Pe434JTMQwYqxhVz0oAF4UXG7yQAAA",
+    "featured": true,
+    "location": {
+      "city": "Izmir",
+      "country": "Turkey",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "ORWO Wolfen NC500"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "krakow-2024",
+    "filename": "krakow-2024.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JQBWAA3KhgYDM3PODVAAA/ulD6PxII8fTByirAj2CcxSNMYgNT/RiEQkmYKGmDGh9jwJijNJJvl/9weBsCqKuptdRjaIkMS5BmKxjjIAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Krakow",
+      "country": "Poland",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "people"
+  },
+  {
+    "id": "krakow-2024-2",
+    "filename": "krakow-2024-2.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACQBACdASoUAB4APu1qsFAppaUiqAqpMB2JYwC7ADB1Vbiuwq2Xr7z3CxJJe5AA/qJT5aVeVFRBEyBPccH98SH+dc/sNFmPFjZVKz0tsabT+bMXD19COLKwS5qN0+PiJWpgpQYMtgOtXftTLJHC2s5Hdgo6GhcqlmWTQS+eaSnEs7aaV0vhn/YssHnA9NFBcn0R9rdWr8CKxbLrbjgoB3OdHfGG22AAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Krakow",
+      "country": "Poland",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "people"
+  },
+  {
+    "id": "krakow-2024-3",
+    "filename": "krakow-2024-3.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACwBACdASoUAB4APu1kqk2ppaQiMAgBMB2JZQAAW+gk65jDN0c8FGR4v0aF6jQoAP7qg1u9UJHzeOv+f+KVENkDAUrveSGyYi/mOMABteKaVlA0mxzHLZmVYoUSNimjk1R698pU1vWCONnH2Z2h98IUThY9ksQ8U3gYh69AAAA=",
+    "featured": false,
+    "location": {
+      "city": "Krakow",
+      "country": "Poland",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "people"
+  },
+  {
+    "id": "krakow-2024-4",
+    "filename": "krakow-2024-4.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYgC26IjCuVqlnxg8tMUAAPopFapaGTI07V1inLcEnafJ33TdlvA2oybvLnxsLu0SO+ySnrwAAA==",
+    "featured": true,
+    "location": {
+      "city": "Krakow",
+      "country": "Poland",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "people"
+  },
+  {
     "id": "marrakech-2024",
     "filename": "marrakech-2024.webp",
-    "width": 1600,
-    "height": 1067,
-    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAA0APu1iqU2/paQiMAgD8B2JZQCw7DJv6cosqAD+0CZZzn2UziF38z8thalRELsgAA==",
-    "featured": true,
-    "title": "The souk",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZwC7AB6MoP5w9f+vn84AAP7J3Qlbk9TV8m3yJlkpkDUrvWTi8Q8ftbs1mMMKqzeZrf/+Gst6A2fMvwizsRXl90Ke9f5X2nlFwozQ712b953xY95DdgMwAAA=",
+    "featured": false,
     "location": {
       "city": "Marrakech",
       "country": "Morocco",
@@ -294,146 +2703,636 @@
     "medium": {
       "type": "film",
       "camera": "nikon-lite-touch-100w",
-      "filmStock": "Fujifilm Superia 400"
+      "filmStock": "ORWO Wolfen NC500"
     },
-    "category": "people"
+    "category": "animal"
   },
   {
-    "id": "sydney-2025",
-    "filename": "sydney-2025.webp",
-    "width": 1600,
-    "height": 900,
-    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAgCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZwC7AC5JAAD+1B9hB8/j4kQgrseXHSW18Xmq8JP3AAAA",
+    "id": "marrakech-2024-2",
+    "filename": "marrakech-2024-2.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZQCsACFKd/n05c3oAAD68/zPUETHKV55WmGppcJh/zufN4fIIo7ofB9QRCWWnPBjroVLFUgmlUOS7VjZ2tmCyu0iU1dn2j3NB7FQ51kPRKvpZ9CAWZHK7cnZes465e+IAAAA",
     "featured": false,
     "location": {
-      "city": "Sydney",
-      "country": "Australia",
-      "continent": "Oceania"
-    },
-    "year": 2025,
-    "medium": {
-      "type": "digital",
-      "camera": "nikon-coolpix-s33"
-    },
-    "category": "nature"
-  },
-  {
-    "id": "queenstown-2024",
-    "filename": "queenstown-2024.webp",
-    "width": 1600,
-    "height": 1067,
-    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAgCdASoUAA0APu1iqk2/paQiMAgD8B2JZwAAfj4AAP7cCE3AILT2YTc77heNJ68Xmq8Kom4vFAAA",
-    "featured": true,
-    "title": "The Remarkables",
-    "location": {
-      "city": "Queenstown",
-      "country": "New Zealand",
-      "continent": "Oceania"
-    },
-    "year": 2024,
-    "medium": {
-      "type": "phone",
-      "camera": "iphone-15"
-    },
-    "category": "nature"
-  },
-  {
-    "id": "cape-town-2023",
-    "filename": "cape-town-2023.webp",
-    "width": 1600,
-    "height": 1200,
-    "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAgCdASoUAA8APu1iqU26JaOjMAgDQB2JZQCw7DDWAAD+2c6SfYCJvKPoXK130yaAAA==",
-    "featured": false,
-    "location": {
-      "city": "Cape Town",
-      "country": "South Africa",
+      "city": "Marrakech",
+      "country": "Morocco",
       "continent": "Africa"
     },
-    "year": 2023,
+    "year": 2024,
     "medium": {
       "type": "film",
       "camera": "nikon-lite-touch-100w",
-      "filmStock": "Kodak Portra 400"
+      "filmStock": "ORWO Wolfen NC500"
     },
-    "category": "nature"
+    "category": "other"
   },
   {
-    "id": "reykjavik-2025",
-    "filename": "reykjavik-2025.webp",
-    "width": 1280,
-    "height": 1600,
-    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUABkAPu1sqlEzpaijqAqqcB2JZwAARiBPeAD+3dc+g/ReYVijaxCEKVtko8eYEAA=",
+    "id": "olomouc-2024",
+    "filename": "olomouc-2024.webp",
+    "width": 2178,
+    "height": 1444,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JQBadBHrhPU3CcOuHMWoAAP7hqlMMUSe2+7+nv/gwglgbXcCd5Rwzj3NIjuph7AIvbbQvrvDeGeye1Gxdob3Ouu7UAXXBwjwrDcCUe3kSACnwIxNjwwAA",
     "featured": true,
-    "title": "Blue hour",
     "location": {
-      "city": "Reykjavik",
-      "country": "Iceland",
-      "continent": "Europe"
-    },
-    "year": 2025,
-    "medium": {
-      "type": "digital",
-      "camera": "nikon-coolpix-s33"
-    },
-    "category": "nature"
-  },
-  {
-    "id": "lisboa-2024-2",
-    "filename": "lisboa-2024-2.webp",
-    "width": 1400,
-    "height": 1400,
-    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUABQAPu1ur1IppiQiqAgBMB2JZwDE2BdzJMAA/uK1MXip1fKWSAuz36oueFXshq4AAA==",
-    "featured": false,
-    "location": {
-      "city": "Lisboa",
-      "country": "Portugal",
+      "city": "Olomouc",
+      "country": "Czech Republic",
       "continent": "Europe"
     },
     "year": 2024,
     "medium": {
-      "type": "digital",
-      "camera": "nikon-coolpix-s33"
-    },
-    "category": "nature"
-  },
-  {
-    "id": "hoi-an-2023",
-    "filename": "hoi-an-2023.webp",
-    "width": 1067,
-    "height": 1600,
-    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUAB4APu1qr1Azpi6jKAqqcB2JZwDNwBi6NnQA/uTlzTdotu/D/A3KePpDGXjr7HwAAA==",
-    "featured": false,
-    "location": {
-      "city": "Hoi An",
-      "country": "Vietnam",
-      "continent": "Asia"
-    },
-    "year": 2023,
-    "medium": {
-      "type": "phone",
-      "camera": "iphone-15"
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
     },
     "category": "people"
   },
   {
-    "id": "chamonix-2022",
-    "filename": "chamonix-2022.webp",
-    "width": 1280,
-    "height": 1600,
-    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUABkAPu1sqlEzpaijqAqqcB2JZwAAP9WSIAD+49l/t2f/cn6XrYVNHVtSQDNRgAA=",
+    "id": "olomouc-2024-2",
+    "filename": "olomouc-2024-2.webp",
+    "width": 725,
+    "height": 1083,
+    "blurDataURL": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAQBQCdASoUAB4APu1crE2ppKSmMBgMATAdiUAXZXDhLeEdFtc+gn2BLvB3Az7jla0gAPcEJS9eRdMtDdjQLE0aH7/w+pkJkaV+uMVFgxMGJOdJ251kpPJJTVo4NsUsjdnAfa3sl18hZ5/G4nR4MXsmktZqcQrohn4tbMIBa2TLkuV9ikOsT4u9NetjueA4igyAeMnGsWP2IQrjwszdsl2LsTHAAA==",
     "featured": false,
-    "title": "Mont Blanc",
     "location": {
-      "city": "Chamonix",
-      "country": "France",
+      "city": "Olomouc",
+      "country": "Czech Republic",
       "continent": "Europe"
     },
-    "year": 2022,
+    "year": 2024,
     "medium": {
       "type": "film",
       "camera": "nikon-lite-touch-100w",
-      "filmStock": "Ilford HP5 Plus"
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "porvoo-2024",
+    "filename": "porvoo-2024.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JQBYdhDuN2IrwRtnkgbwAAP7rQO1st+sjmosIFoBSjAFXN+Z9V+U8EvuFSuMn4SSxL2OlLB0qaFWoevyl5M0gC6GfjPhDmULhNN5tOA0RtGwsYmpUAA==",
+    "featured": true,
+    "location": {
+      "city": "Porvoo",
+      "country": "Finland",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
     },
     "category": "nature"
+  },
+  {
+    "id": "porvoo-2024-2",
+    "filename": "porvoo-2024-2.webp",
+    "width": 2178,
+    "height": 1444,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JYwCsACHiHrJ415HaE4sAAP7UnMHRYXQHz2kFZmcC67nOaZtDfY0IhQKc4iYgm+yyO87tjhhU9AjBo6rDzZ72wyy1xrpHAAA=",
+    "featured": false,
+    "location": {
+      "city": "Porvoo",
+      "country": "Finland",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "city"
+  },
+  {
+    "id": "porvoo-2024-3",
+    "filename": "porvoo-2024-3.webp",
+    "width": 2178,
+    "height": 1444,
+    "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBOgA8HCekhAbRs6DkiAAP7sTWiq4Ssh0nTR1b3k3ebASOCRROOVEA6b/bLpfgXauP4T+NX+udTCGsWVujTt1bwmPh1lkB4Jv/AOZIfkzQrNK7whW1LIhPcoAA==",
+    "featured": false,
+    "location": {
+      "city": "Porvoo",
+      "country": "Finland",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "people"
+  },
+  {
+    "id": "taiwan-2024",
+    "filename": "taiwan-2024.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAADwBQCdASoUAB4APu1qrlCppiQiqAqpMB2JZQALAEc2kRBqWzTyWVCUrjSFST9CB/ej6tJMVUZiAAD+20hu8PAXH25iq9yvO/ROVxbhcecXdc+1Lj5rURjlWDASNV9CbIeJkFBtzFp92l6DSikElgGI5cb/NWsWPFD3YHLhekdsMjkBCDkplAg8FC7rsqwCLHfT4AXD77uP5mtt7BsBorETAeFa4DRc8TM+8INTv2HV0tIKU+TaAOET1hQUtpRJ+jqG6f0dlULGyD3jBarTT+pNXQreOHZ60tpWSSJFssVWvgAA",
+    "featured": false,
+    "location": {
+      "city": "Taiwan",
+      "country": "Taiwan",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "taiwan-2024-2",
+    "filename": "taiwan-2024-2.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABwBQCdASoUAB4APu1ipk4ppSMiMBgMATAdiWUAuDAywdF9kwJMrSFWvqysBJw14L+v72uoAP71ssF4GNHH4EaX6acc2KE3+9dQTAPr5Ng+7jy+DjG4Jgdly8gZQuQlgMaERR6FW4nVc4FXzWlhIdhNjchXrmsxuRVHIkXs5G7OUAAA",
+    "featured": false,
+    "location": {
+      "city": "Taiwan",
+      "country": "Taiwan",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "other"
+  },
+  {
+    "id": "taiwan-2024-3",
+    "filename": "taiwan-2024-3.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQCdABeJXoLVfBcZgAD+4KYkabrMEQ/Cr88eObl79z338bHY5IEcttsri1JOsglI0q/0dg/WRIgCEQyU9kN9r7cdbJBfbJdWfc7kavMVwTy62afAAA==",
+    "featured": false,
+    "location": {
+      "city": "Taiwan",
+      "country": "Taiwan",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "city"
+  },
+  {
+    "id": "taiwan-2024-4",
+    "filename": "taiwan-2024-4.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZwCdACHvXy8tAAD+5FuPRuCes5awUscJZjkVFSO71u9M1hyBbgKW/9OEsduAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Taiwan",
+      "country": "Taiwan",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "other"
+  },
+  {
+    "id": "taiwan-2024-5",
+    "filename": "taiwan-2024-5.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYwCdABdSvZO75lmsKAD+wE7/sX32DHXAYuPW59aOLpb/g+inncvbUEBZ3ojtNfXkZU1SRn0K+PNtOmcj+28/mQ+oxq5QA6hv52p2W4csfzMTndY4JG34RCTit2IUWqf8Snbj2FX/DTXG2AAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Taiwan",
+      "country": "Taiwan",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "taiwan-2024-6",
+    "filename": "taiwan-2024-6.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoUAA0APu1iqU2ppaQiMAgBMB2JQBOgBFkP/PrtBrH5mQ6Ug0AA/N3hP9Nc2XU4W33qyk8td7N7lfPa61pGLnsoBnKRK/9mO7OELjPCoClHqVEZpN2sbF7xJS+wc3KRpO1xxcZL+d7ls4OWnnR20xJm3h+nDheEgAA=",
+    "featured": false,
+    "location": {
+      "city": "Taiwan",
+      "country": "Taiwan",
+      "continent": "Asia"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Shanghai GP3 400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "tallin-2024",
+    "filename": "tallin-2024.webp",
+    "width": 2400,
+    "height": 1591,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACQAwCdASoUAA0APu1kqU2ppaQiMAgBMB2JQBOgAnhnHURMRdgAAPi0sYbHAYpdxe830nd9zHCAH2tQ0+7tu8W6wwM9fFXpKk2Fj7IlzG/xR5EgZfBF35ykbp/TCVUkLnBCBsIAAAA=",
+    "featured": true,
+    "location": {
+      "city": "Tallin",
+      "country": "Estonia",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "tallin-2024-2",
+    "filename": "tallin-2024-2.webp",
+    "width": 2178,
+    "height": 1444,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACQAwCdASoUAA0APu1iqk2ppaQiMAgBMB2JZQDCgCLf0jWD+M64AP7TnlBQdkitJxVZVh1K3EC0QQGlu3Irmil7sBqirZUoEEERv0QsfQebB5NvGNngd3jh4OBAvjPwZvr7H8YrAAA=",
+    "featured": false,
+    "location": {
+      "city": "Tallin",
+      "country": "Estonia",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Aeronega 100"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "vilnius-2024",
+    "filename": "vilnius-2024.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAwBQCdASoUAB4APu1srlKppaQiqAgBMB2JQBdgCz/4A5liQua87T0Ic0oQ1PtmT+YNgAD+1HxMHh88Fy4J7YmuG19T657NouXXEzLDCFv6RWJv1R3EeGRHZAwjXmoeXc8oxtsh2W5bQP7osFCNMLgLNk3fUgYx6IwDDMhe7wnEgZCEWCYmAPBAvRVSpi9AAAA=",
+    "featured": false,
+    "location": {
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "vilnius-2024-2",
+    "filename": "vilnius-2024-2.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoUAA0APu1iqU2ppaOiMAgBMB2JZQC06BuUcB8kVoZk0kdIgAD+0GsWlaEWyJ6t18F59TCe9E/Bv273UTId9/wlbrYcujda4+0rGuyNCkFCQ3x8A5BM8aQ7flr4pUT7elPXLJv/7spHUAW9qjzoIg1ADySuTDV60QAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "people"
+  },
+  {
+    "id": "vilnius-2024-3",
+    "filename": "vilnius-2024-3.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JYwC/OB6W1Do0PuzDAZAA4nN4VAG8O6pxFgq/DMw+W40GgemxZKLp6q2wFpo0lQgQsDPrmv+PeeT0NdIXG7eFYcyyOC/C8NlZyDPJXDnicwAA",
+    "featured": false,
+    "location": {
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "people"
+  },
+  {
+    "id": "vilnius-2024-4",
+    "filename": "vilnius-2024-4.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAwBQCdASoUAB4APu1kqk2ppaQiMAgBMB2JZQDBkCFrijvnRmJyv/2EiMH6CemVOaBvAAD+oe6bEXfrRsjCOSYCfpg/+VAEBCzD/oEjlhCSYesBvmkbf/rJN+CmEEDmGLTRqDWdVaMbHeTUS5rUuXrhLPC57iNqA2mBaYc3SMgXUNZxpiRfHpXUqOrZkXFOIYbGAJdvS0fj0lpGPPvS5jYAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "people"
+  },
+  {
+    "id": "vilnius-2024-5",
+    "filename": "vilnius-2024-5.webp",
+    "width": 722,
+    "height": 1089,
+    "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQBACdASoUAB4APuVgpE2pJaMiMAwBIByJYwDE2B4tJyq8KO5+tWWQX3pjPrGOoAD+e+CTLiYBVj5mgu5tUc43N/jIh9wUHBWcJpM7qO2gUU5VkSgp8mkh6u0BdUSN5vMdVsGyYBxHpgTGgZrBNoe504bjW6ypculfEstS9byTfWdhjr1SSb6h3DPxhEfViAA=",
+    "featured": false,
+    "location": {
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "vilnius-2024-6",
+    "filename": "vilnius-2024-6.webp",
+    "width": 1089,
+    "height": 722,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABwAwCdASoUAA0APu1iqU2ppaQiMAgBMB2JZQCdABoK+sEoDaAA/u6hLNpgoRo8vXfqZREab9QK1q1pfYsDjRy2E9Jyfd5zWx4l6aoz4pPth9BGwyThf89qiGzOelQP0q/ZDiTQ2T1xWtmuIWtDy6AA",
+    "featured": false,
+    "location": {
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Vision3 500T"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "buenos-aires-2024",
+    "filename": "buenos-aires-2024.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwBACdASoUABsAPu1mqU2ppaQiMAgBMB2JZgCdACHf5CFHb6DXtlKf4jlMdah5ynAA/vQi3bT186JRsXPZ0+cfAnkfguCtrWsk3UcjITRYadTi2zyRqin1qo3H283zC1okUFPPjbnvHcnrlYb5SK6BQqbpw8AlAG3OjbePRURo5YV/67dTNVYr56cjdAAA",
+    "featured": false,
+    "location": {
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-11"
+    },
+    "category": "other"
+  },
+  {
+    "id": "buenos-aires-2025",
+    "filename": "buenos-aires-2025.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAwBQCdASoUABsAPt1WpU2opKOiN/qoARAbiWYAsRugAIK0oAKVgLthL09zJpLqTYY8AAD+Pz032ISGZ7iRYVXoS0zfgAeIwqzhQDaylwQSC9djR1k6aQu/I0v7Z9aAd7zoqCNxEj7yydSJ+e8OlQWDfW+GnaOuHjmxguzr+d1+08JImSfRs1JPxqvqhxU4PSck91zmAcs/RU2SddFu3+JNyxwZizFQ132wAA==",
+    "featured": false,
+    "location": {
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "other"
+  },
+  {
+    "id": "buenos-aires-2025-2",
+    "filename": "buenos-aires-2025-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACwBQCdASoUABsAPu1oqk+ppiOiKA1RMB2JZACdHX/3dgLae0zz6RBDAdK0pFSVYb+grNY/pRgA/lkKtDZ5dglSA6wgraC6/F54rKeLbDUWBh60BigLhQg/aupSfayP6xFUU8smm98oM4j/dcNdS3ZnA1qiyoVU7o2J2b5OvMQxwifW8MeD5QntSNxKKk7EdzvRgOLKAAA=",
+    "featured": false,
+    "location": {
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "city"
+  },
+  {
+    "id": "buenos-aires-2025-3",
+    "filename": "buenos-aires-2025-3.webp",
+    "width": 2400,
+    "height": 3200,
+    "blurDataURL": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQBACdASoUABsAPu1qr1CppaQiqAqpMB2JYwABHuG+Z+s23n8IHgspzAgAAP64vTjSnXeYMpkaT5xpdZ84u13uHmhnWwWhrUXbQ04ALbza7eqOrMcDRPhF5XDeSUVI3NvmdBGtA35D8uSr+lq+lQYXA4yWwNKxNvQL+yzXy9K2cGLK+ChqwtZSgAA=",
+    "featured": true,
+    "location": {
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "city"
+  },
+  {
+    "id": "malibu-2025",
+    "filename": "malibu-2025.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAADQBACdASoUABsAPu1sq1EppaOiqAqpMB2JYwAAj/ghOUu7bGZLQjkn7huSTmyE0AD+vFaAC7+oL+WBO52YXl4wJespEShw3FKdz9pp77AVd/cl9MY5HbJxmyYIPON5cd15E+Uv/LaNStY0W1+C0o68IqBvA+UNo70oel7XCS08xKYdgx0Y9pfbDzEKXZ1KADZGF7X/RWgoZqmJUyL9iYYw/hLhgAAA",
+    "featured": false,
+    "location": {
+      "city": "Malibu",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "other"
+  },
+  {
+    "id": "mendoza-2024-7",
+    "filename": "mendoza-2024-7.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADQBACdASoUABsAPu1mq04ppaQiMAgBMB2JQBdmUGeECTQHM+TN4LKbsJIm3iHT0AD+rknoczynK4DKehBq/URVmjlNaNrQZBQIfbIQIwCUga6C0paFdwe0UtFhojJJDrwvi02KaXrC3Rc02gkfJOlEcr1XCRkbaLSrU0bljn++LPxYLYAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Mendoza",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-11"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "torres-del-paine-2024",
+    "filename": "torres-del-paine-2024.webp",
+    "width": 2400,
+    "height": 3200,
+    "blurDataURL": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAwBQCdASoUABsAPu1srFEppaQiqAqpMB2JZgCdMt1+bJAAWUDlY5j3ZtCNU3NmEz75cADHRNIQPDjVDf603+DPKcley6HdyQFp37HORWcpYkwtFy8S+ss8RN2p0ORWnk/aATVzYetScdZ0tle0Swu7bCHLMGPoaWM/kQaowTbFIMbZMSgHh+F2/mwRBIrl8K7KQnD0RB3ZA26AAAA=",
+    "featured": false,
+    "location": {
+      "city": "Torres del Paine",
+      "country": "Chile",
+      "continent": "South America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-11-pro"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "rio-de-janeiro-2025",
+    "filename": "rio-de-janeiro-2025.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABwBQCdASoUABsAPu1kqk+ppSOiMBgIATAdiWIAnTNogrq/gNZ0S3g16KrSHNhe5zuAFPAAAKw9d5wUgeJlOu60KLnwAan7n5HtcD9uEDYn2EnXtJ+PbYcmWcc7Tlxvx8gkpyvFpTC+xVWOwQQlVHe+ujs2NFXwTUS3dJUQDhagCx+Y6888ypXehglOskAo7T5uu/UHAAA=",
+    "featured": false,
+    "location": {
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "continent": "South America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "rio-de-janeiro-2025-2",
+    "filename": "rio-de-janeiro-2025-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAACQBQCdASoUABsAPu1orE8ppiQiMBgIATAdiUAWI9tINYhwY7WM+HdcFFJzCd1MgR2x0+EcEAD9p8XyC3CYnlV8fOwKZgwN4JEn/EMkr1nkpX4FC2yEQFYXu7CDJSDqF/KVwPSmET/SQz6P4a9HvrtHhxqjXJXV5F8fCwwNZNapvud8r1S6ZAPvEHv2wuIEd0QdYvz8KzSfEAAA",
+    "featured": false,
+    "location": {
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "continent": "South America"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "architecture"
+  },
+  {
+    "id": "taipei-2025-4",
+    "filename": "taipei-2025-4.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACwBACdASoUABsAPu1mqk2ppaQiMAgBMB2JYwDGluAAWSMxrSB5mM64n8MY/rEEAP4Z+rky1n6ihE4j8blODA8eFPeuGOD/sZ/A58aP8uUp/ben54O/XeYCLgKE1bcgANGi0WuW4yV91gTj3kWYvBFoqQn0fUMEk9L3a6z2uKJCDHSy359BemOmk4BLz11e0SMhw316AAA=",
+    "featured": false,
+    "location": {
+      "city": "Taipei",
+      "country": "Taiwan",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "other"
+  },
+  {
+    "id": "uttarakhand-2026",
+    "filename": "uttarakhand-2026.webp",
+    "width": 2400,
+    "height": 3200,
+    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACwBACdASoUABsAPu1qsFAppiSiqAqpMB2JZAC7M47E2EyHmJ1u/FqXw3LJ1T8AAPnaP3b9JuhHpNS7wG2hcRsO5W/xQ33SdonzbcxMGX8EZ2KWb0Ok9AUeW7Qr+xharqPkcqfj+WPJtUv6HQ2ieOVYSadCwQR0g0Ddblx8PViBZFg6x5aG8lPfohWLjtyYkLhhTsRAAAA=",
+    "featured": false,
+    "location": {
+      "city": "Uttarakhand",
+      "country": "India",
+      "continent": "Asia"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "animal"
+  },
+  {
+    "id": "uttarakhand-2026-2",
+    "filename": "uttarakhand-2026-2.webp",
+    "width": 1800,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADwBACdASoUABsAPu1qrVEppaQiqAqpMB2JZgCxH03v/gXj+CjzP/jbb69L4w0436AA8XHpTDYAUC9kG68Zfrc3/nbtjnQe2Ef438mczADTbbF2LdYIR7Tb8O9a6tqsTulFDlHF67MiBOPHpKjc9B+G6OY1dek11Z8csBQ0KNVFWWZTbK2Fzc5ac4MhRKnKPAAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Uttarakhand",
+      "country": "India",
+      "continent": "Asia"
+    },
+    "year": 2026,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "animal"
   }
 ]
