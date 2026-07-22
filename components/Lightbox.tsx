@@ -139,6 +139,9 @@ export default function Lightbox({
             }}
           >
             <div className="relative flex items-center justify-center">
+              {/* Uniform presentation: fixed height on desktop so portraits and
+                  landscapes read at a consistent, large size; width-fill on
+                  mobile (PRD §6, adjusted per feedback). */}
               <Image
                 key={photo.id}
                 src={`/photos/${photo.filename}`}
@@ -149,8 +152,7 @@ export default function Lightbox({
                 placeholder={photo.blurDataURL ? 'blur' : 'empty'}
                 blurDataURL={photo.blurDataURL}
                 priority
-                className="h-auto w-auto object-contain"
-                style={{ maxHeight: '82vh', maxWidth: '82vw' }}
+                className="h-auto w-full max-h-[68vh] object-contain md:h-[76vh] md:max-h-none md:w-auto md:max-w-[88vw]"
               />
             </div>
 

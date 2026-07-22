@@ -4,22 +4,66 @@ import { CAMERA_KEYS, type CameraKey } from '@/data/cameras';
 
 const ALL_PHOTOS = photosData as unknown as Photo[];
 
-/**
- * Sort order (PRD §4.3): featured first, then by year descending, then by id
- * ascending for stability. This same order applies within the featured and
- * non-featured groups, so a single comparator handles both.
- */
-export function sortPhotos(photos: Photo[]): Photo[] {
-  return [...photos].sort((a, b) => {
-    if (a.featured !== b.featured) return a.featured ? -1 : 1;
-    if (a.year !== b.year) return b.year - a.year;
-    return a.id.localeCompare(b.id);
-  });
+function orientation(p: Photo): 'L' | 'P' {
+  return p.width >= p.height ? 'L' : 'P';
+}
+const loc = (p: Photo) => `${p.location.country}/${p.location.city}`;
+
+/** Deterministic phase in [0,1) from a string (FNV-1a) — staggers buckets. */
+function phase(s: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return (h >>> 0) / 4294967296;
 }
 
-/** All photos, sorted. The single source the grid renders from. */
+/**
+ * Aesthetic spread (deterministic): each photo gets a position in [0,1) equal
+ * to its evenly-spaced slot within its location's set (j/count) offset by a
+ * per-location phase, then everything is sorted by that position. So every
+ * place is distributed *evenly* across the whole grid — the biggest trip (San
+ * Francisco) is spaced out rather than front-loaded or clumped, small places
+ * scatter instead of piling in the middle, and no two neighbours share a
+ * location. Stable across reloads — fixed base sort + a fixed hash, no
+ * per-load randomness.
+ */
+function spread(photos: Photo[]): Photo[] {
+  const buckets = new Map<string, Photo[]>();
+  for (const p of [...photos].sort((a, b) => a.id.localeCompare(b.id))) {
+    (buckets.get(loc(p)) ?? buckets.set(loc(p), []).get(loc(p))!).push(p);
+  }
+
+  const scored: { p: Photo; score: number; key: string }[] = [];
+  for (const [key, arr] of buckets) {
+    const ph = phase(key);
+    arr.forEach((p, j) => {
+      scored.push({ p, key, score: ((j + 0.5) / arr.length + ph) % 1 });
+    });
+  }
+
+  scored.sort(
+    (a, b) => a.score - b.score || a.key.localeCompare(b.key) || a.p.id.localeCompare(b.p.id),
+  );
+  return scored.map((s) => s.p);
+}
+
+/** Grid order: a single deterministic aesthetic spread over all photos. */
+export function orderPhotos(photos: Photo[]): Photo[] {
+  return spread(photos);
+}
+
+/** All photos, ordered. The single source the grid renders from. */
 export function getPhotos(): Photo[] {
-  return sortPhotos(ALL_PHOTOS);
+  return orderPhotos(ALL_PHOTOS);
+}
+
+/** Aggregate stats for the hero scope line (unique cities + year range). */
+export function getPhotoStats(): { cities: number; minYear: number; maxYear: number } {
+  const cities = new Set(ALL_PHOTOS.map((p) => p.location.city)).size;
+  const years = ALL_PHOTOS.map((p) => p.year);
+  return { cities, minYear: Math.min(...years), maxYear: Math.max(...years) };
 }
 
 /** Alt text (PRD §8): the title when present, otherwise generated from metadata. */

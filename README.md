@@ -1,7 +1,7 @@
 # Photography Portfolio
 
 A single-page photography portfolio — a light, VSCO-style responsive grid with
-stacked filtering, a full-metadata lightbox, and a footer contact. Static site,
+stacked filtering, a full-metadata lightbox, and hero contact links. Static site,
 no CMS and no backend: photo metadata lives in a committed JSON file, and adding
 a photo is a Git commit.
 
@@ -9,18 +9,15 @@ Built with Next.js (App Router) + TypeScript + Tailwind, deployed on Vercel.
 
 ---
 
-## ⚠️ Placeholder values to replace before launch
+## Site config
 
-These are stubbed and **must** be replaced with real values. All live in one
-file: [`data/site.ts`](data/site.ts).
+Name, quote, contact email, and social links live in one file:
+[`data/site.ts`](data/site.ts). Email (`hello@hilarytang.com`) and Instagram
+(`@untangled.hills`) are set and shown in the hero.
 
-| Value | Where | Current placeholder |
-|---|---|---|
-| Contact email | `data/site.ts` → `email` | `hilary@example.com` |
-| Instagram (and any other socials) | `data/site.ts` → `socials[].href` | `https://instagram.com/your-handle` |
-| Domain | Not in code — [add it in Vercel](#deploying-to-vercel) once purchased | builds against the Vercel preview URL |
-
-The site name and hero quote also live in `data/site.ts` if you want to change them.
+The one thing still outstanding: a **custom domain** — not in code; [add it in
+Vercel](#deploying-to-vercel) once purchased. Until then the site runs on the
+Vercel preview URL.
 
 ---
 
@@ -180,7 +177,7 @@ app/
   globals.css         # design tokens + grid / hover CSS
   icon.svg            # favicon
 components/
-  Hero.tsx  Footer.tsx
+  Hero.tsx            # name, quote, scope line, contact (Instagram + email)
   Gallery.tsx         # client orchestrator: filter state, grid, lightbox
   FilterBar.tsx       # desktop filter bar
   FilterSheet.tsx     # mobile bottom-sheet filters

@@ -18,7 +18,13 @@ const SIZES = '(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 25vw';
 
 export default function PhotoTile({ photo, onOpen, priority }: PhotoTileProps) {
   const country = photo.location.country;
-  const full = `${cameraLabel(photo.medium.camera)} · ${country} · ${photo.year}`;
+  // Film photos lead with the film stock (more telling than the fixed camera);
+  // digital/phone lead with the camera. Overflow falls back to country · year.
+  const lead =
+    photo.medium.type === 'film' && photo.medium.filmStock
+      ? photo.medium.filmStock
+      : cameraLabel(photo.medium.camera);
+  const full = `${lead} · ${country} · ${photo.year}`;
   const reduced = `${country} · ${photo.year}`;
 
   // Overflow rule (PRD §4.4): if the full line would overflow the column, drop

@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import FilterGroup from './FilterGroup';
-import type { FilterViewProps } from './FilterBar';
+import { CAMERAS } from '@/data/cameras';
+import { activeChips, type FilterViewProps } from './FilterBar';
 
 interface FilterSheetProps extends FilterViewProps {
   isOpen: boolean;
@@ -119,6 +120,23 @@ export default function FilterSheet({
             </div>
 
             <div className="flex-1 overflow-y-auto px-6">
+              {active && (
+                <div className="flex flex-wrap items-center gap-2 py-4">
+                  {activeChips(groups, state).map(({ key, value, label }) => (
+                    <button
+                      key={`${key}-${value}`}
+                      type="button"
+                      onClick={() => onToggle(key, value)}
+                      className="inline-flex items-center gap-1.5 rounded-full border border-rule px-2.5 py-1 text-ink"
+                      style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.08em' }}
+                      aria-label={`Remove filter ${label}`}
+                    >
+                      {label}
+                      <span className="text-ink-tertiary">×</span>
+                    </button>
+                  ))}
+                </div>
+              )}
               <Accordion
                 label="Location"
                 selectedCount={state.continent.length + state.country.length}
@@ -172,17 +190,21 @@ export default function FilterSheet({
                 />
               </Accordion>
 
-              <Accordion label="Film Stock" selectedCount={state.filmStock.length}>
-                <FilterGroup
-                  label="Film Stock"
-                  name="m-filmStock"
-                  layout="stack"
-                  options={groups.filmStock}
-                  selected={state.filmStock}
-                  onToggle={(v) => onToggle('filmStock', v)}
-                  subdued
-                />
-              </Accordion>
+              {state.camera.some(
+                (k) => CAMERAS[k as keyof typeof CAMERAS]?.type === 'film',
+              ) && (
+                <Accordion label="Film Stock" selectedCount={state.filmStock.length}>
+                  <FilterGroup
+                    label="Film Stock"
+                    name="m-filmStock"
+                    layout="stack"
+                    options={groups.filmStock}
+                    selected={state.filmStock}
+                    onToggle={(v) => onToggle('filmStock', v)}
+                    subdued
+                  />
+                </Accordion>
+              )}
             </div>
 
             <div className="flex items-center justify-between gap-4 border-t border-rule px-6 py-4">

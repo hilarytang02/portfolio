@@ -2,7 +2,7 @@
 
 import { useMemo, useState, useCallback, useRef } from 'react';
 import type { Photo } from '@/types/photo';
-import { cameraLabel } from '@/data/cameras';
+import { cameraLabel, CAMERAS } from '@/data/cameras';
 import { deriveFilterOptions } from '@/lib/photos';
 import {
   emptyFilterState,
@@ -111,6 +111,13 @@ export default function Gallery({ photos }: GalleryProps) {
             (c) => countryToContinent[c] !== value,
           );
         }
+        // Film stock only applies to film — clear it if no film camera remains.
+        if (key === 'camera') {
+          const stillFilm = next.camera.some(
+            (k) => CAMERAS[k as keyof typeof CAMERAS]?.type === 'film',
+          );
+          if (!stillFilm) next.filmStock = [];
+        }
         return next;
       });
     },
@@ -136,21 +143,19 @@ export default function Gallery({ photos }: GalleryProps) {
         onClear={onClear}
         active={active}
         showCountryRow={state.continent.length > 0}
+        resultCount={filtered.length}
       />
 
-      {/* Mobile trigger (PRD §5.4): a single right-aligned FILTER (n) button. */}
+      {/* Mobile trigger (PRD §5.4): result count + a FILTER (n) button. */}
       <div className="sticky top-0 z-30 border-b border-rule bg-bg/90 backdrop-blur-md md:hidden">
-        <div className="flex justify-end px-6 py-3">
-          <button
-            type="button"
-            onClick={() => setSheetOpen(true)}
-            className="text-ink"
-            style={{
-              fontSize: '11px',
-              textTransform: 'uppercase',
-              letterSpacing: '0.12em',
-            }}
-          >
+        <div
+          className="flex items-center justify-between px-6 py-3"
+          style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.12em' }}
+        >
+          <span className="text-ink-tertiary tabular-nums" aria-hidden>
+            {filtered.length} {filtered.length === 1 ? 'photo' : 'photos'}
+          </span>
+          <button type="button" onClick={() => setSheetOpen(true)} className="text-ink">
             Filter{activeCount > 0 ? ` (${activeCount})` : ''}
           </button>
         </div>
