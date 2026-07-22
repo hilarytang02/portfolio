@@ -5,6 +5,8 @@
 export const SITE = {
   name: 'Hilary Tang',
   quote: '"the world is very, very beautiful if you look at it."',
+  /** The quote split at its semantic break — line two lands like a punchline. */
+  quoteLines: ['the world is very, very beautiful', 'if you look at it.'],
   email: 'hello@hilarytang.com',
   socials: [
     {
