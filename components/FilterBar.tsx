@@ -30,9 +30,6 @@ const LABEL_STYLE = {
   letterSpacing: '0.12em',
 } as const;
 
-/** Show the value in the trigger only when exactly one, and short enough to fit. */
-const MAX_VALUE_LEN = 20;
-
 export function activeChips(
   groups: FilterGroups,
   state: FilterState,
@@ -72,9 +69,18 @@ function Trigger({
       className="inline-flex items-baseline gap-1.5"
       style={LABEL_STYLE}
     >
-      <span style={{ color: count > 0 || open ? '#1A1A1A' : '#6B6B6B', transition: 'color 150ms' }}>
+      <span
+        className="inline-flex items-baseline"
+        style={{ color: count > 0 || open ? '#1A1A1A' : '#6B6B6B', transition: 'color 150ms' }}
+      >
         {label}
-        {valueLabel && <span className="text-ink-secondary">: {valueLabel}</span>}
+        {valueLabel && (
+          <span
+            className="ml-1 inline-block max-w-[220px] overflow-hidden text-ellipsis whitespace-nowrap align-bottom text-ink-secondary"
+          >
+            : {valueLabel}
+          </span>
+        )}
       </span>
       {count > 0 && !valueLabel && (
         <span className="text-ink-tertiary tabular-nums" style={{ fontSize: '10px' }}>
@@ -156,9 +162,9 @@ export default function FilterBar({
   const labelOf = (key: FilterKey, value: string) =>
     chips.find((c) => c.key === key && c.value === value)?.label ?? value;
 
-  // For the trigger's inline value: the single selected label, if short enough.
+  // For the trigger's inline value: the label when exactly one is selected.
   const single = (values: string[]): string | null =>
-    values.length === 1 && values[0].length <= MAX_VALUE_LEN ? values[0] : null;
+    values.length === 1 ? values[0] : null;
   const locationValues = [
     ...state.continent.map((v) => labelOf('continent', v)),
     ...state.country.map((v) => labelOf('country', v)),
@@ -177,11 +183,11 @@ export default function FilterBar({
       count: state.continent.length + state.country.length,
       valueLabel: single(locationValues),
       panel: (
-        <div className="flex flex-col gap-4" style={{ minWidth: 260 }}>
-          <FilterGroup label="Continent" name="continent" options={groups.continent} selected={state.continent} onToggle={(v) => onToggle('continent', v)} subdued />
+        <div className="flex flex-col gap-4">
+          <FilterGroup label="Continent" name="continent" layout="menu" options={groups.continent} selected={state.continent} onToggle={(v) => onToggle('continent', v)} subdued />
           {showCountryRow && groups.country.length > 0 && (
             <div className="border-t border-rule/60 pt-4">
-              <FilterGroup label="Country" name="country" options={groups.country} selected={state.country} onToggle={(v) => onToggle('country', v)} subdued />
+              <FilterGroup label="Country" name="country" layout="menu" options={groups.country} selected={state.country} onToggle={(v) => onToggle('country', v)} subdued />
             </div>
           )}
         </div>
@@ -192,14 +198,14 @@ export default function FilterBar({
       label: 'Category',
       count: state.category.length,
       valueLabel: single(state.category.map((v) => labelOf('category', v))),
-      panel: <FilterGroup label="Category" name="category" options={groups.category} selected={state.category} onToggle={(v) => onToggle('category', v)} subdued />,
+      panel: <FilterGroup label="Category" name="category" layout="menu" options={groups.category} selected={state.category} onToggle={(v) => onToggle('category', v)} subdued />,
     },
     {
       key: 'medium',
       label: 'Medium',
       count: state.camera.length,
       valueLabel: single(state.camera.map((v) => labelOf('camera', v))),
-      panel: <FilterGroup label="Camera" name="camera" options={groups.camera} selected={state.camera} onToggle={(v) => onToggle('camera', v)} subdued />,
+      panel: <FilterGroup label="Camera" name="camera" layout="menu" options={groups.camera} selected={state.camera} onToggle={(v) => onToggle('camera', v)} subdued />,
     },
     ...(filmSelected
       ? [{
@@ -207,7 +213,7 @@ export default function FilterBar({
           label: 'Film Stock',
           count: state.filmStock.length,
           valueLabel: single(state.filmStock.map((v) => labelOf('filmStock', v))),
-          panel: <FilterGroup label="Film Stock" name="filmStock" options={groups.filmStock} selected={state.filmStock} onToggle={(v) => onToggle('filmStock', v)} subdued />,
+          panel: <FilterGroup label="Film Stock" name="filmStock" layout="menu" options={groups.filmStock} selected={state.filmStock} onToggle={(v) => onToggle('filmStock', v)} subdued />,
         }]
       : []),
   ];
@@ -235,8 +241,8 @@ export default function FilterBar({
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -4 }}
                       transition={{ duration: 0.14, ease: 'easeOut' }}
-                      className="absolute left-0 top-full z-40 mt-3 border border-rule bg-bg p-5 shadow-[0_12px_32px_rgba(0,0,0,0.1)]"
-                      style={{ maxWidth: 'min(560px, 82vw)' }}
+                      className="absolute left-0 top-full z-40 mt-3 max-h-[min(60vh,420px)] overflow-y-auto border border-rule bg-bg p-4 shadow-[0_12px_32px_rgba(0,0,0,0.1)]"
+                      style={{ minWidth: 240, maxWidth: 'min(560px, 82vw)' }}
                     >
                       {t.panel}
                     </motion.div>

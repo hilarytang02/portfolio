@@ -59,11 +59,11 @@ export function getPhotos(): Photo[] {
   return orderPhotos(ALL_PHOTOS);
 }
 
-/** Aggregate stats for the hero scope line (unique cities + year range). */
-export function getPhotoStats(): { cities: number; minYear: number; maxYear: number } {
-  const cities = new Set(ALL_PHOTOS.map((p) => p.location.city)).size;
+/** Aggregate stats for the hero scope line (unique countries + year range). */
+export function getPhotoStats(): { countries: number; minYear: number; maxYear: number } {
+  const countries = new Set(ALL_PHOTOS.map((p) => p.location.country)).size;
   const years = ALL_PHOTOS.map((p) => p.year);
-  return { cities, minYear: Math.min(...years), maxYear: Math.max(...years) };
+  return { countries, minYear: Math.min(...years), maxYear: Math.max(...years) };
 }
 
 /** Alt text (PRD §8): the title when present, otherwise generated from metadata. */

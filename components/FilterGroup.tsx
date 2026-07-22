@@ -14,8 +14,11 @@ interface FilterGroupProps {
   onToggle: (value: string) => void;
   /** Unique per group, used to scope checkbox ids. */
   name: string;
-  /** Inline (desktop bar) or stacked (mobile sheet). */
-  layout?: 'inline' | 'stack';
+  /**
+   * inline — wrapping row (unused now); stack — vertical list (mobile sheet);
+   * menu — full-width rows with the count right-aligned (desktop dropdowns).
+   */
+  layout?: 'inline' | 'stack' | 'menu';
   /** Optional lighter sub-heading style (used for the cascaded country row). */
   subdued?: boolean;
 }
@@ -36,31 +39,18 @@ export default function FilterGroup({
 }: FilterGroupProps) {
   if (options.length === 0) return null;
 
+  const menu = layout === 'menu';
+  const stacked = layout === 'stack' || menu;
+
   return (
-    <div
-      className={
-        layout === 'inline'
-          ? 'flex flex-wrap items-baseline gap-x-4 gap-y-2'
-          : 'flex flex-col gap-3'
-      }
-    >
+    <div className={stacked ? 'flex flex-col gap-2' : 'flex flex-wrap items-baseline gap-x-4 gap-y-2'}>
       <span
         className={subdued ? 'text-ink-tertiary' : 'text-ink-secondary'}
-        style={{
-          fontSize: '11px',
-          textTransform: 'uppercase',
-          letterSpacing: '0.12em',
-        }}
+        style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.12em' }}
       >
         {label}
       </span>
-      <div
-        className={
-          layout === 'inline'
-            ? 'flex flex-wrap items-baseline gap-x-4 gap-y-2'
-            : 'flex flex-col gap-3'
-        }
-      >
+      <div className={stacked ? 'flex flex-col gap-0.5' : 'flex flex-wrap items-baseline gap-x-4 gap-y-2'}>
         {options.map((opt) => {
           const isSelected = selected.includes(opt.value);
           const disabled = opt.count === 0 && !isSelected;
@@ -69,7 +59,11 @@ export default function FilterGroup({
             <label
               key={opt.value}
               htmlFor={id}
-              className="group inline-flex cursor-pointer items-baseline gap-1.5 select-none"
+              className={
+                menu
+                  ? 'group flex cursor-pointer select-none items-center justify-between gap-8 rounded-sm px-2 py-1.5 transition-colors hover:bg-rule/50'
+                  : 'group inline-flex cursor-pointer items-baseline gap-1.5 select-none'
+              }
               style={disabled ? { opacity: 0.4, cursor: 'default' } : undefined}
             >
               <input
@@ -81,7 +75,7 @@ export default function FilterGroup({
                 onChange={() => onToggle(opt.value)}
               />
               <span
-                className="border-b transition-colors peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2"
+                className="whitespace-nowrap border-b transition-colors peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2"
                 style={{
                   fontSize: '11px',
                   textTransform: 'uppercase',
@@ -93,11 +87,7 @@ export default function FilterGroup({
               >
                 {opt.label}
               </span>
-              <span
-                aria-hidden="true"
-                className="text-ink-tertiary tabular-nums"
-                style={{ fontSize: '10px' }}
-              >
+              <span aria-hidden="true" className="text-ink-tertiary tabular-nums" style={{ fontSize: '10px' }}>
                 {opt.count}
               </span>
             </label>
