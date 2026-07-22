@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fafaf8;
+  --ink: #1a1a1a;
+  --ink-secondary: #6b6b6b;
+  --ink-tertiary: #a0a0a0;
+  --rule: #e5e5e2;
+  --scrim: rgba(250, 250, 248, 0.97);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Visible focus ring for keyboard users, tokens per PRD §8 */
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Grid uses CSS multi-column layout (PRD §4.3). */
+.photo-columns {
+  column-count: 2;
+  column-gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .photo-columns {
+    column-count: 3;
+    column-gap: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .photo-columns {
+    column-count: 4;
+  }
+}
+
+.photo-columns > * {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 640px) {
+  .photo-columns > * {
+    margin-bottom: 24px;
+  }
+}
+
+/* Photo tile hover (desktop / fine pointer only, PRD §4.4). Touch devices show
+   nothing on tap-hold and open the lightbox directly. */
+.tile-img {
+  transition: opacity 200ms ease;
+}
+.tile-meta {
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .tile:hover .tile-img {
+    opacity: 0.88;
+  }
+  .tile:hover .tile-meta,
+  .tile:focus-visible .tile-meta {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

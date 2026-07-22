@@ -1,0 +1,439 @@
+[
+  {
+    "id": "lisboa-2024",
+    "filename": "lisboa-2024.webp",
+    "width": 1067,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUAB4APu1qr1Czpi6iqAqqcB2JZwDKABd07qAA/uK08PdoZ62/ySR6gYi69DYAAAA=",
+    "featured": true,
+    "title": "Alfama mornings",
+    "location": {
+      "city": "Lisboa",
+      "country": "Portugal",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Portra 400"
+    },
+    "category": "city"
+  },
+  {
+    "id": "porto-2023",
+    "filename": "porto-2023.webp",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAA0APu1kqU2/paQiMAgD8B2JZQCw7DBRvlYAAP7XMUEw9ZRfV2f6nk8RU3SIYAA=",
+    "featured": false,
+    "location": {
+      "city": "Porto",
+      "country": "Portugal",
+      "continent": "Europe"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "city"
+  },
+  {
+    "id": "barcelona-2024",
+    "filename": "barcelona-2024.webp",
+    "width": 1280,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUABkAPu1sqlEzpaijqAqqcB2JZwAARiBPeAD+3dc+g/ReYVijaxCEKVtko8eYEAA=",
+    "featured": false,
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "people"
+  },
+  {
+    "id": "paris-2022",
+    "filename": "paris-2022.webp",
+    "width": 1600,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZQC06C0Hmp0AAP7d18CD5/HxisfBLJ6Vcm5WaAA=",
+    "featured": true,
+    "title": "Seine at dusk",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Gold 200"
+    },
+    "category": "city"
+  },
+  {
+    "id": "rome-2023",
+    "filename": "rome-2023.webp",
+    "width": 1400,
+    "height": 1400,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABQAwCdASoUABQAPu1srVIppaQiqAgBMB2JZwDNwBdyjK2oAAD+4rUxeKnV8bBu/D617ItwQbhRwAAA",
+    "featured": false,
+    "location": {
+      "city": "Rome",
+      "country": "Italy",
+      "continent": "Europe"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "city"
+  },
+  {
+    "id": "tokyo-2025",
+    "filename": "tokyo-2025.webp",
+    "width": 1067,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUAB4APu1qrVCzpa4iqAqqcB2JZwDM0Bd07qAA/uPZf7dfTEYaNUxT06mfTsGiAAA=",
+    "featured": true,
+    "title": "Shinjuku neon",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Fujifilm Superia 400"
+    },
+    "category": "city"
+  },
+  {
+    "id": "kyoto-2025",
+    "filename": "kyoto-2025.webp",
+    "width": 1600,
+    "height": 1200,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUAA8APu1iqk26JaQiMAgDQB2JZQCw7EYIoAD+0CY4q9ZRfPEN7amSW/rY3KDgAAA=",
+    "featured": false,
+    "title": "Arashiyama",
+    "location": {
+      "city": "Kyoto",
+      "country": "Japan",
+      "continent": "Asia"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "hanoi-2023",
+    "filename": "hanoi-2023.webp",
+    "width": 1067,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUAB4APu1qrVCzpa4iqAqqcB2JZwDO7Bd07qAA/uCPOndogQn8tFJNb0CoyxTfHwAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "continent": "Asia"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Portra 400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "bangkok-2022",
+    "filename": "bangkok-2022.webp",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAgCdASoUAA0APu1iqk2/paQiMAgD8B2JZwAAfj4AAP7cCE3SWw2nswm5xKNzr2bxearwqibi8UAA",
+    "featured": false,
+    "location": {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "continent": "Asia"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "city"
+  },
+  {
+    "id": "new-york-2024",
+    "filename": "new-york-2024.webp",
+    "width": 1280,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUABkAPu1ur1KzpiQnqAgCcB2JZwDNwBdzJMAA/t9QXgWuop+Q+wL3WVGgPF6QGAA=",
+    "featured": true,
+    "title": "Midtown grid",
+    "location": {
+      "city": "New York",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Ilford HP5 Plus"
+    },
+    "category": "city"
+  },
+  {
+    "id": "san-francisco-2023",
+    "filename": "san-francisco-2023.webp",
+    "width": 1600,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZQAAibJ9BOdoAAD+0CZZpthxdXeyXBgo+jGR8cAAAA==",
+    "featured": false,
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "mexico-city-2024",
+    "filename": "mexico-city-2024.webp",
+    "width": 1400,
+    "height": 1400,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUABQAPu1ur1KppiQiqAgBMB2JZwDE2BdzJMAA/uK1MXip1fGwC7Pfqi54VeyGrgAAAA==",
+    "featured": false,
+    "location": {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "continent": "North America"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "people"
+  },
+  {
+    "id": "cusco-2022",
+    "filename": "cusco-2022.webp",
+    "width": 1600,
+    "height": 1200,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUAA8APu1iqU26JaQiMAgDQB2JZQC06C5JAAD+4I+OKvWXWLrNO6d2wfi8wqKMAAA=",
+    "featured": false,
+    "title": "Sacred Valley",
+    "location": {
+      "city": "Cusco",
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Gold 200"
+    },
+    "category": "people"
+  },
+  {
+    "id": "buenos-aires-2023",
+    "filename": "buenos-aires-2023.webp",
+    "width": 1067,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUAB4APu1qrlCzpa4iqAqqcB2JZwDM0Bd07qAA/uTlzC3RGGjXNtaCKerPZs3D92vgAA==",
+    "featured": false,
+    "location": {
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "continent": "South America"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "city"
+  },
+  {
+    "id": "marrakech-2024",
+    "filename": "marrakech-2024.webp",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAA0APu1iqU2/paQiMAgD8B2JZQCw7DJv6cosqAD+0CZZzn2UziF38z8thalRELsgAA==",
+    "featured": true,
+    "title": "The souk",
+    "location": {
+      "city": "Marrakech",
+      "country": "Morocco",
+      "continent": "Africa"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Fujifilm Superia 400"
+    },
+    "category": "people"
+  },
+  {
+    "id": "sydney-2025",
+    "filename": "sydney-2025.webp",
+    "width": 1600,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAgCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZwC7AC5JAAD+1B9hB8/j4kQgrseXHSW18Xmq8JP3AAAA",
+    "featured": false,
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Oceania"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "queenstown-2024",
+    "filename": "queenstown-2024.webp",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAgCdASoUAA0APu1iqk2/paQiMAgD8B2JZwAAfj4AAP7cCE3AILT2YTc77heNJ68Xmq8Kom4vFAAA",
+    "featured": true,
+    "title": "The Remarkables",
+    "location": {
+      "city": "Queenstown",
+      "country": "New Zealand",
+      "continent": "Oceania"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "cape-town-2023",
+    "filename": "cape-town-2023.webp",
+    "width": 1600,
+    "height": 1200,
+    "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAgCdASoUAA8APu1iqU26JaOjMAgDQB2JZQCw7DDWAAD+2c6SfYCJvKPoXK130yaAAA==",
+    "featured": false,
+    "location": {
+      "city": "Cape Town",
+      "country": "South Africa",
+      "continent": "Africa"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Kodak Portra 400"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "reykjavik-2025",
+    "filename": "reykjavik-2025.webp",
+    "width": 1280,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUABkAPu1sqlEzpaijqAqqcB2JZwAARiBPeAD+3dc+g/ReYVijaxCEKVtko8eYEAA=",
+    "featured": true,
+    "title": "Blue hour",
+    "location": {
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "continent": "Europe"
+    },
+    "year": 2025,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "lisboa-2024-2",
+    "filename": "lisboa-2024-2.webp",
+    "width": 1400,
+    "height": 1400,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUABQAPu1ur1IppiQiqAgBMB2JZwDE2BdzJMAA/uK1MXip1fKWSAuz36oueFXshq4AAA==",
+    "featured": false,
+    "location": {
+      "city": "Lisboa",
+      "country": "Portugal",
+      "continent": "Europe"
+    },
+    "year": 2024,
+    "medium": {
+      "type": "digital",
+      "camera": "nikon-coolpix-s33"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "hoi-an-2023",
+    "filename": "hoi-an-2023.webp",
+    "width": 1067,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUAB4APu1qr1Azpi6jKAqqcB2JZwDNwBi6NnQA/uTlzTdotu/D/A3KePpDGXjr7HwAAA==",
+    "featured": false,
+    "location": {
+      "city": "Hoi An",
+      "country": "Vietnam",
+      "continent": "Asia"
+    },
+    "year": 2023,
+    "medium": {
+      "type": "phone",
+      "camera": "iphone-15"
+    },
+    "category": "people"
+  },
+  {
+    "id": "chamonix-2022",
+    "filename": "chamonix-2022.webp",
+    "width": 1280,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUABkAPu1sqlEzpaijqAqqcB2JZwAAP9WSIAD+49l/t2f/cn6XrYVNHVtSQDNRgAA=",
+    "featured": false,
+    "title": "Mont Blanc",
+    "location": {
+      "city": "Chamonix",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "year": 2022,
+    "medium": {
+      "type": "film",
+      "camera": "nikon-lite-touch-100w",
+      "filmStock": "Ilford HP5 Plus"
+    },
+    "category": "nature"
+  }
+]
