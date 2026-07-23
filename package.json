@@ -12,7 +12,8 @@
     "add-photo": "tsx scripts/add-photo.ts",
     "import-photos": "tsx scripts/import-photos.ts",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "extract-tones": "tsx scripts/extract-tones.ts"
   },
   "dependencies": {
     "framer-motion": "^12.42.2",

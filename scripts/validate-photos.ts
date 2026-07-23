@@ -100,6 +100,11 @@ function main() {
       );
     }
 
+    // tone drives the grid's color ordering — missing is a warning, not an error
+    if (!p.tone || typeof p.tone.l !== 'number') {
+      warnings.push(`[${id}] no tone data — run \`npm run extract-tones\``);
+    }
+
     if (type === 'film' && !medium.filmStock) {
       err('medium.type is "film" but no filmStock given');
     }

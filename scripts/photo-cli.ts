@@ -72,8 +72,9 @@ export function orderedPhoto(p: Photo): Record<string, unknown> {
     width: p.width,
     height: p.height,
     blurDataURL: p.blurDataURL,
-    featured: p.featured,
   };
+  if (p.tone !== undefined) out.tone = { l: p.tone.l, a: p.tone.a, b: p.tone.b };
+  out.featured = p.featured;
   if (p.title !== undefined) out.title = p.title;
   out.location = {
     city: p.location.city,
@@ -187,7 +188,7 @@ export async function addPhoto(
   }
 
   console.log(`  Processing → public/photos/${id}.webp …`);
-  const { width, height, blurDataURL } = await processImage(spec.source, id);
+  const { width, height, blurDataURL, tone } = await processImage(spec.source, id);
 
   const photo: Photo = {
     id,
@@ -195,6 +196,7 @@ export async function addPhoto(
     width,
     height,
     blurDataURL,
+    tone,
     featured: spec.featured,
     ...(spec.title ? { title: spec.title } : {}),
     location: { city: spec.city, country: spec.country, continent: spec.continent },
