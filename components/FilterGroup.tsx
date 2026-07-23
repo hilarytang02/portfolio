@@ -15,18 +15,25 @@ interface FilterGroupProps {
   /** Unique per group, used to scope checkbox ids. */
   name: string;
   /**
-   * inline — wrapping row (unused now); stack — vertical list (mobile sheet);
+   * inline — wrapping row; stack — vertical list (mobile sheet);
    * menu — full-width rows with the count right-aligned (desktop dropdowns).
    */
   layout?: 'inline' | 'stack' | 'menu';
   /** Optional lighter sub-heading style (used for the cascaded country row). */
   subdued?: boolean;
+  /**
+   * Hide the heading — used in single-facet dropdowns where the trigger above
+   * already names the group and repeating it is noise.
+   */
+  showLabel?: boolean;
 }
 
 /**
  * A single facet rendered as real, restyled checkboxes (PRD §8). Zero-yield
  * options render at 40% opacity and are not selectable (PRD §5.3); selected
- * options stay clickable so they can be turned off.
+ * options stay clickable so they can be turned off. In `menu` layout the
+ * selected affordance is a soft row fill (scannable at a glance) rather than
+ * the link-like underline used in the inline/stack layouts.
  */
 export default function FilterGroup({
   label,
@@ -36,6 +43,7 @@ export default function FilterGroup({
   name,
   layout = 'inline',
   subdued = false,
+  showLabel = true,
 }: FilterGroupProps) {
   if (options.length === 0) return null;
 
@@ -44,12 +52,14 @@ export default function FilterGroup({
 
   return (
     <div className={stacked ? 'flex flex-col gap-2' : 'flex flex-wrap items-baseline gap-x-4 gap-y-2'}>
-      <span
-        className={subdued ? 'text-ink-tertiary' : 'text-ink-secondary'}
-        style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.12em' }}
-      >
-        {label}
-      </span>
+      {showLabel && (
+        <span
+          className={subdued ? 'text-ink-tertiary' : 'text-ink-secondary'}
+          style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.12em' }}
+        >
+          {label}
+        </span>
+      )}
       <div className={stacked ? 'flex flex-col gap-0.5' : 'flex flex-wrap items-baseline gap-x-4 gap-y-2'}>
         {options.map((opt) => {
           const isSelected = selected.includes(opt.value);
@@ -61,7 +71,9 @@ export default function FilterGroup({
               htmlFor={id}
               className={
                 menu
-                  ? 'group flex cursor-pointer select-none items-center justify-between gap-8 rounded-sm px-2 py-1.5 transition-colors hover:bg-rule/50'
+                  ? `group flex cursor-pointer select-none items-center justify-between gap-8 px-2.5 py-2 transition-colors ${
+                      isSelected ? 'bg-rule/60' : 'hover:bg-rule/40'
+                    }`
                   : 'group inline-flex cursor-pointer items-baseline gap-1.5 select-none'
               }
               style={disabled ? { opacity: 0.4, cursor: 'default' } : undefined}
@@ -81,7 +93,7 @@ export default function FilterGroup({
                   textTransform: 'uppercase',
                   letterSpacing: '0.1em',
                   color: isSelected ? '#1A1A1A' : '#6B6B6B',
-                  borderColor: isSelected ? '#1A1A1A' : 'transparent',
+                  borderColor: !menu && isSelected ? '#1A1A1A' : 'transparent',
                   paddingBottom: '1px',
                 }}
               >

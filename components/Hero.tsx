@@ -13,11 +13,11 @@ export default function Hero() {
       <h1
         className="text-ink"
         style={{
-          fontSize: '12px',
+          fontSize: '15px',
           lineHeight: 1.2,
           fontWeight: 400,
           textTransform: 'uppercase',
-          letterSpacing: '0.32em',
+          letterSpacing: '0.3em',
         }}
       >
         {SITE.name}
@@ -25,9 +25,12 @@ export default function Hero() {
       {/* The quote is the focal point — light italic, balanced over two lines.
           Fixed min-height reserves the two lines so a font swap can't reflow
           it (keeps CLS ~0). */}
+      {/* A full modular step above the 15px name (~1.33) so the quote clearly
+          leads — at 17px the tracked caps name read as the same rank. Two
+          reserved lines: 2 × 20px × 1.6 = 64px. */}
       <p
-        className="mx-auto mt-7 min-h-[3.6rem] font-light"
-        style={{ fontSize: '17px', lineHeight: 1.65, color: '#4A4A4A' }}
+        className="mx-auto mt-7 min-h-[4rem] font-light"
+        style={{ fontSize: '20px', lineHeight: 1.6, color: '#4A4A4A' }}
       >
         {SITE.quoteLines.map((line, i) => (
           <span key={line} className="block">
@@ -41,14 +44,17 @@ export default function Hero() {
       {/* Hairline anchor between the poetic block and the quiet meta. */}
       <div aria-hidden className="mx-auto mt-8 h-px w-6 bg-rule" />
 
-      <div
-        className="mt-6 flex flex-col items-center gap-2 text-ink-tertiary"
-        style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.14em' }}
-      >
-        <p>
+      <div className="mt-6 flex flex-col items-center gap-2 text-ink-tertiary">
+        <p
+          style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.14em' }}
+        >
           {countries} countries · {minYear}–{maxYear}
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
+        {/* Handles and emails are lowercase identifiers — keep them as written. */}
+        <div
+          className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1"
+          style={{ fontSize: '12px', letterSpacing: '0.05em' }}
+        >
           {SITE.socials.map((s) => (
             <a
               key={s.label}

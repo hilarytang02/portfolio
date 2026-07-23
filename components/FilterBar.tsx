@@ -66,13 +66,12 @@ function Trigger({
       type="button"
       onClick={onClick}
       aria-expanded={open}
-      className="inline-flex items-baseline gap-1.5"
+      className={`inline-flex items-center gap-1.5 py-2 transition-colors ${
+        count > 0 || open ? 'text-ink' : 'text-ink-secondary hover:text-ink'
+      }`}
       style={LABEL_STYLE}
     >
-      <span
-        className="inline-flex items-baseline"
-        style={{ color: count > 0 || open ? '#1A1A1A' : '#6B6B6B', transition: 'color 150ms' }}
-      >
+      <span className="inline-flex items-baseline">
         {label}
         {valueLabel && (
           <span
@@ -87,13 +86,24 @@ function Trigger({
           {count}
         </span>
       )}
-      <span
+      {/* 1px-stroke chevron — matches the site's hairline weight. */}
+      <svg
         aria-hidden
-        className="text-ink-tertiary"
-        style={{ fontSize: '8px', transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms' }}
+        width="9"
+        height="6"
+        viewBox="0 0 9 6"
+        fill="none"
+        className="text-ink-tertiary transition-transform duration-150"
+        style={{ transform: open ? 'rotate(180deg)' : undefined }}
       >
-        ▼
-      </span>
+        <path
+          d="M1 1.25 4.5 4.75 8 1.25"
+          stroke="currentColor"
+          strokeWidth="1.1"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
     </button>
   );
 }
@@ -183,13 +193,25 @@ export default function FilterBar({
       count: state.continent.length + state.country.length,
       valueLabel: single(locationValues),
       panel: (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col">
           <FilterGroup label="Continent" name="continent" layout="menu" options={groups.continent} selected={state.continent} onToggle={(v) => onToggle('continent', v)} subdued />
-          {showCountryRow && groups.country.length > 0 && (
-            <div className="border-t border-rule/60 pt-4">
-              <FilterGroup label="Country" name="country" layout="menu" options={groups.country} selected={state.country} onToggle={(v) => onToggle('country', v)} subdued />
-            </div>
-          )}
+          {/* The country cascade eases in rather than popping (height + fade). */}
+          <AnimatePresence initial={false}>
+            {showCountryRow && groups.country.length > 0 && (
+              <motion.div
+                key="countries"
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: 'auto', opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+                transition={{ duration: 0.16, ease: 'easeOut' }}
+                className="overflow-hidden"
+              >
+                <div className="mt-4 border-t border-rule/60 pt-4">
+                  <FilterGroup label="Country" name="country" layout="menu" options={groups.country} selected={state.country} onToggle={(v) => onToggle('country', v)} subdued />
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
       ),
     },
@@ -198,14 +220,14 @@ export default function FilterBar({
       label: 'Category',
       count: state.category.length,
       valueLabel: single(state.category.map((v) => labelOf('category', v))),
-      panel: <FilterGroup label="Category" name="category" layout="menu" options={groups.category} selected={state.category} onToggle={(v) => onToggle('category', v)} subdued />,
+      panel: <FilterGroup label="Category" name="category" layout="menu" showLabel={false} options={groups.category} selected={state.category} onToggle={(v) => onToggle('category', v)} subdued />,
     },
     {
       key: 'medium',
       label: 'Medium',
       count: state.camera.length,
       valueLabel: single(state.camera.map((v) => labelOf('camera', v))),
-      panel: <FilterGroup label="Camera" name="camera" layout="menu" options={groups.camera} selected={state.camera} onToggle={(v) => onToggle('camera', v)} subdued />,
+      panel: <FilterGroup label="Camera" name="camera" layout="menu" showLabel={false} options={groups.camera} selected={state.camera} onToggle={(v) => onToggle('camera', v)} subdued />,
     },
     ...(filmSelected
       ? [{
@@ -213,7 +235,7 @@ export default function FilterBar({
           label: 'Film Stock',
           count: state.filmStock.length,
           valueLabel: single(state.filmStock.map((v) => labelOf('filmStock', v))),
-          panel: <FilterGroup label="Film Stock" name="filmStock" layout="menu" options={groups.filmStock} selected={state.filmStock} onToggle={(v) => onToggle('filmStock', v)} subdued />,
+          panel: <FilterGroup label="Film Stock" name="filmStock" layout="menu" showLabel={false} options={groups.filmStock} selected={state.filmStock} onToggle={(v) => onToggle('filmStock', v)} subdued />,
         }]
       : []),
   ];
@@ -241,7 +263,7 @@ export default function FilterBar({
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -4 }}
                       transition={{ duration: 0.14, ease: 'easeOut' }}
-                      className="absolute left-0 top-full z-40 mt-3 max-h-[min(60vh,420px)] overflow-y-auto border border-rule bg-bg p-4 shadow-[0_12px_32px_rgba(0,0,0,0.1)]"
+                      className="absolute left-0 top-full z-40 mt-2 max-h-[min(60vh,420px)] overflow-y-auto border border-rule bg-bg p-3 shadow-[0_8px_24px_rgba(0,0,0,0.07)]"
                       style={{ minWidth: 240, maxWidth: 'min(560px, 82vw)' }}
                     >
                       {t.panel}
@@ -272,23 +294,43 @@ export default function FilterBar({
             </div>
           </div>
 
-          {active && (
-            <div className="flex flex-wrap items-center gap-2 pb-4">
-              {chips.map(({ key, value, label }) => (
-                <button
-                  key={`${key}-${value}`}
-                  type="button"
-                  onClick={() => onToggle(key, value)}
-                  className="group inline-flex items-center gap-1.5 rounded-full border border-rule px-2.5 py-1 text-ink transition-colors hover:border-ink"
-                  style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.08em' }}
-                  aria-label={`Remove filter ${label}`}
-                >
-                  {label}
-                  <span className="text-ink-tertiary transition-colors group-hover:text-ink">×</span>
-                </button>
-              ))}
-            </div>
-          )}
+          {/* Chips ease in/out (height + fade) so applying the first filter
+              never snaps the grid down; individual chips pop and re-flow. */}
+          <AnimatePresence initial={false}>
+            {active && (
+              <motion.div
+                key="chips-row"
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: 'auto', opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+                transition={{ duration: 0.18, ease: 'easeOut' }}
+                className="overflow-hidden"
+              >
+                <div className="flex flex-wrap items-center gap-2 pb-4">
+                  <AnimatePresence initial={false}>
+                    {chips.map(({ key, value, label }) => (
+                      <motion.button
+                        key={`${key}-${value}`}
+                        layout
+                        initial={{ opacity: 0, scale: 0.92 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 0.92 }}
+                        transition={{ duration: 0.14, ease: 'easeOut' }}
+                        type="button"
+                        onClick={() => onToggle(key, value)}
+                        className="group inline-flex items-center gap-1.5 rounded-full border border-rule px-2.5 py-1 text-ink transition-colors hover:border-ink"
+                        style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.08em' }}
+                        aria-label={`Remove filter ${label}`}
+                      >
+                        {label}
+                        <span className="text-ink-tertiary transition-colors group-hover:text-ink">×</span>
+                      </motion.button>
+                    ))}
+                  </AnimatePresence>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
       </div>
     </MotionConfig>
