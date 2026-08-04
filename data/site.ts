@@ -7,7 +7,7 @@ export const SITE = {
   quote: '"what a blessing it is to be alive and to see the world"',
   /** The quote split at its semantic break — line two lands like a punchline. */
   quoteLines: ['what a blessing it is to be alive', 'and to see the world'],
-  email: 'hello@hilarytang.com',
+  email: 'untangled.hills@gmail.com',
   socials: [
     {
       label: 'Instagram',
