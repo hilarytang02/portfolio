@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 
 const inter = Inter({
@@ -34,7 +35,10 @@ export default function RootLayout({
       {/* suppressHydrationWarning: browser extensions (e.g. Grammarly) inject
           attributes on <body> before hydration; this ignores only that, not
           real mismatches inside the tree. */}
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
