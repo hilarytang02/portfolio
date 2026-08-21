@@ -173,26 +173,31 @@ hardcoded domain.
 ```
 app/
   layout.tsx          # root layout, fonts, metadata
-  page.tsx            # the only route (statically generated)
+  page.tsx            # the gallery (statically generated)
+  partnerships/page.tsx     # affiliate partners, own metadata
   globals.css         # design tokens + grid / hover CSS
   icon.svg            # favicon
 components/
-  Hero.tsx            # name, quote, scope line, contact (Instagram + email)
+  Hero.tsx            # masthead: variant="full" (gallery) | "compact" (inner pages)
+  SiteNav.tsx         # GALLERY · PARTNERSHIPS — the whole nav
   Gallery.tsx         # client orchestrator: filter state, grid, lightbox
   FilterBar.tsx       # desktop filter bar
   FilterSheet.tsx     # mobile bottom-sheet filters
   FilterGroup.tsx     # shared facet (real checkboxes, counts, disabled states)
   PhotoGrid.tsx  PhotoTile.tsx  Lightbox.tsx
+  PartnerSection.tsx  OfferRow.tsx  CopyCode.tsx
 lib/
   photos.ts               # load, sort, derive filter options, alt text
   filter.ts               # pure predicate + faceted counts (unit-tested)
   filter.test.ts
   url-state.ts            # filter state <-> query string (slugified)
   useFilterQueryState.ts  # URL sync via useSyncExternalStore (keeps SSG)
+  partners.ts             # getPartners() — sorted by `order`
 data/
   photos.json         # the single source of truth
   cameras.ts          # closed camera vocabulary
   site.ts             # name, quote, contact — the placeholder values
+  partners.ts         # affiliate partners + the commission disclosure line
 types/photo.ts
 scripts/
   add-photo.ts  import-photos.ts  validate-photos.ts
@@ -200,7 +205,16 @@ scripts/
   image-pipeline.ts       # sharp resize + webp + blurDataURL
   generate-placeholders.ts   # dev helper: regenerates the sample photos
 public/photos/        # the .webp images
+public/partners/      # partner logos (SVG preferred — served unoptimized)
 ```
+
+### Adding an affiliate partner
+
+Two steps, no component changes: append an entry to `data/partners.ts` and drop
+its logo in `public/partners/`. `order` controls position on the page; offer
+order within a company is whatever you write, so put the lowest-commitment
+offer first. Keep commission rates and contract terms out of this repo — it's
+public.
 
 The sample photos are generated gradients. To regenerate them (or once you've
 added real photos and want to drop the samples), see
