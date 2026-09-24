@@ -5,14 +5,15 @@ import { AFFILIATE_DISCLOSURE } from '@/data/partners';
 import { getPartners } from '@/lib/partners';
 
 /**
- * Route-level metadata (PRD §5) — layout.tsx hardcodes "Hilary Tang —
- * Photography", which is wrong for this page.
+ * Route-level metadata (PRD §5). `title` is just the section name — layout's
+ * template appends "| Hilary Tang". openGraph spells it out because a share
+ * card is read on its own, with no template applied.
  */
 export const metadata: Metadata = {
-  title: 'Partnerships — Hilary Tang',
+  title: 'Partnerships',
   description: 'Companies I work with, and the offers I can get you.',
   openGraph: {
-    title: 'Partnerships — Hilary Tang',
+    title: 'Partnerships | Hilary Tang',
     description: 'Companies I work with, and the offers I can get you.',
     type: 'website',
   },
