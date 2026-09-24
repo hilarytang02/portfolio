@@ -7,7 +7,7 @@ import SiteNav from './SiteNav';
  * no full-bleed, no scroll indicator.
  *
  * Two variants rather than a second masthead component:
- *   full    — the gallery homepage: name, quote, stats, contact, nav
+ *   full    — the gallery homepage: name, handle, quote, stats, contact, nav
  *   compact — inner pages: name, handle, nav. No quote and no stats: the page
  *             owns its own heading, and the quote belongs to the gallery.
  */
@@ -19,6 +19,41 @@ const NAME_STYLE = {
   textTransform: 'uppercase',
   letterSpacing: '0.3em',
 } as const;
+
+/** Handles and emails are lowercase identifiers — keep them as written. */
+const LINK_STYLE = { fontSize: '12px', letterSpacing: '0.05em' } as const;
+
+/**
+ * The handle row, directly under the name in both variants — name and handle
+ * are one identity block, kept apart from the contact line further down. Most
+ * traffic arrives from a reel, where the handle is the name people actually
+ * recognise, so seeing it immediately confirms they're in the right place.
+ *
+ * Stays a link, and stays text: it is the only route from here to the profile,
+ * and the written handle is the thing visitors recognise — a platform glyph in
+ * its place would say less and would be the loudest mark on a page whose job
+ * is to present photographs.
+ */
+function Handles({ className = '' }: { className?: string }) {
+  return (
+    <div
+      className={`flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-ink-tertiary ${className}`}
+      style={LINK_STYLE}
+    >
+      {SITE.socials.map((s) => (
+        <a
+          key={s.label}
+          href={s.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-colors hover:text-ink"
+        >
+          {s.handle ?? s.label}
+        </a>
+      ))}
+    </div>
+  );
+}
 
 export default function Hero({ variant = 'full' }: { variant?: 'full' | 'compact' }) {
   const { countries, minYear, maxYear } = getPhotoStats();
@@ -32,26 +67,7 @@ export default function Hero({ variant = 'full' }: { variant?: 'full' | 'compact
           {SITE.name}
         </p>
 
-        {/* The handle, directly under the name. Most traffic here arrives from
-            a reel, where the handle is the name people actually recognise —
-            seeing it immediately confirms they're in the right place. Same
-            treatment as the gallery's contact row. */}
-        <div
-          className="mt-3 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-ink-tertiary"
-          style={{ fontSize: '12px', letterSpacing: '0.05em' }}
-        >
-          {SITE.socials.map((s) => (
-            <a
-              key={s.label}
-              href={s.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-ink"
-            >
-              {s.handle ?? s.label}
-            </a>
-          ))}
-        </div>
+        <Handles className="mt-3" />
 
         <SiteNav className="mt-5" />
       </header>
@@ -63,6 +79,12 @@ export default function Hero({ variant = 'full' }: { variant?: 'full' | 'compact
       <h1 className="text-ink" style={NAME_STYLE}>
         {SITE.name}
       </h1>
+
+      {/* Bound tighter to the name than the quote's gap below it (8px against
+          32px) so the two read as one block and the handle cannot be mistaken
+          for a subtitle competing with the quote. */}
+      <Handles className="mt-2" />
+
       {/* The quote is the focal point — light italic, balanced over two lines.
           Fixed min-height reserves the two lines so a font swap can't reflow
           it (keeps CLS ~0). */}
@@ -70,7 +92,7 @@ export default function Hero({ variant = 'full' }: { variant?: 'full' | 'compact
           leads — at 17px the tracked caps name read as the same rank. Two
           reserved lines: 2 × 20px × 1.6 = 64px. */}
       <p
-        className="mx-auto mt-7 min-h-[4rem] font-light"
+        className="mx-auto mt-8 min-h-[4rem] font-light"
         style={{ fontSize: '20px', lineHeight: 1.6, color: '#4A4A4A' }}
       >
         {SITE.quoteLines.map((line, i) => (
@@ -91,27 +113,18 @@ export default function Hero({ variant = 'full' }: { variant?: 'full' | 'compact
         >
           {countries} countries · {minYear}–{maxYear}
         </p>
-        {/* Handles and emails are lowercase identifiers — keep them as written. */}
-        <div
-          className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1"
-          style={{ fontSize: '12px', letterSpacing: '0.05em' }}
+        {/* Contact, on its own line now that the handle has moved up into the
+            identity block — this row means one thing only: how to reach her.
+            Written out rather than hidden behind an envelope so it stays
+            readable and copyable when a visitor has no client wired to
+            mailto:, which is a silent dead end otherwise. */}
+        <a
+          href={`mailto:${SITE.email}`}
+          className="transition-colors hover:text-ink"
+          style={LINK_STYLE}
         >
-          {SITE.socials.map((s) => (
-            <a
-              key={s.label}
-              href={s.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-ink"
-            >
-              {s.handle ?? s.label}
-            </a>
-          ))}
-          <span aria-hidden>·</span>
-          <a href={`mailto:${SITE.email}`} className="transition-colors hover:text-ink">
-            {SITE.email}
-          </a>
-        </div>
+          {SITE.email}
+        </a>
       </div>
 
       {/* The only entry point to /partnerships. Sits below the contact row on its own
