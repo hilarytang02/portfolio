@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import type { Photo } from '@/types/photo';
 import { cameraLabel } from '@/data/cameras';
+import { filmStockShort } from '@/data/film-stocks';
 import { altText } from '@/lib/photos';
 
 interface PhotoTileProps {
@@ -16,29 +17,48 @@ interface PhotoTileProps {
 
 const SIZES = '(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 25vw';
 
+const META_STYLE = {
+  fontSize: '11px',
+  textTransform: 'uppercase',
+  letterSpacing: '0.08em',
+} as const;
+
+type Tier = 'full' | 'short' | 'reduced';
+
 export default function PhotoTile({ photo, onOpen, priority }: PhotoTileProps) {
   const country = photo.location.country;
   // Film photos lead with the film stock (more telling than the fixed camera);
-  // digital/phone lead with the camera. Overflow falls back to country · year.
-  const lead =
-    photo.medium.type === 'film' && photo.medium.filmStock
-      ? photo.medium.filmStock
-      : cameraLabel(photo.medium.camera);
+  // digital/phone lead with the camera.
+  const film = photo.medium.type === 'film' ? photo.medium.filmStock : undefined;
+  const lead = film ?? cameraLabel(photo.medium.camera);
+  const shortLead = film ? filmStockShort(film) : lead;
+
   const full = `${lead} · ${country} · ${photo.year}`;
+  const short = `${shortLead} · ${country} · ${photo.year}`;
   const reduced = `${country} · ${photo.year}`;
 
-  // Overflow rule (PRD §4.4): if the full line would overflow the column, drop
-  // the camera label first, falling back to `{country} · {year}`. A hidden
-  // measurer holding the full string lets us re-evaluate on resize both ways.
+  // Overflow rule (PRD §4.4), widened to three tiers: full name, then the
+  // stock's short form, then `{country} · {year}`. The middle tier matters
+  // because for a film frame the stock is the most telling thing on the line —
+  // going straight from "LomoChrome Metropolis 100-400" to "US · 2023" throws
+  // away the best of the caption to save 2px. Hidden measurers hold each
+  // candidate so resize can re-evaluate in both directions.
   const boxRef = useRef<HTMLSpanElement>(null);
-  const measureRef = useRef<HTMLSpanElement>(null);
-  const [showCamera, setShowCamera] = useState(true);
+  const fullRef = useRef<HTMLSpanElement>(null);
+  const shortRef = useRef<HTMLSpanElement>(null);
+  const [tier, setTier] = useState<Tier>('full');
 
   useEffect(() => {
     const box = boxRef.current;
-    const measure = measureRef.current;
-    if (!box || !measure) return;
-    const check = () => setShowCamera(measure.offsetWidth <= box.offsetWidth);
+    const mFull = fullRef.current;
+    const mShort = shortRef.current;
+    if (!box || !mFull || !mShort) return;
+    const check = () => {
+      const w = box.offsetWidth;
+      setTier(
+        mFull.offsetWidth <= w ? 'full' : mShort.offsetWidth <= w ? 'short' : 'reduced',
+      );
+    };
     check();
     const ro = new ResizeObserver(check);
     ro.observe(box);
@@ -74,26 +94,26 @@ export default function PhotoTile({ photo, onOpen, priority }: PhotoTileProps) {
         <span
           ref={boxRef}
           className="block w-full overflow-hidden whitespace-nowrap text-white"
-          style={{
-            fontSize: '11px',
-            textTransform: 'uppercase',
-            letterSpacing: '0.08em',
-          }}
+          style={META_STYLE}
         >
-          {showCamera ? full : reduced}
+          {tier === 'full' ? full : tier === 'short' ? short : reduced}
         </span>
-        {/* Off-screen measurer holding the full string. */}
+        {/* Off-screen measurers, one per candidate line. */}
         <span
-          ref={measureRef}
+          ref={fullRef}
           aria-hidden="true"
           className="pointer-events-none invisible absolute whitespace-nowrap"
-          style={{
-            fontSize: '11px',
-            textTransform: 'uppercase',
-            letterSpacing: '0.08em',
-          }}
+          style={META_STYLE}
         >
           {full}
+        </span>
+        <span
+          ref={shortRef}
+          aria-hidden="true"
+          className="pointer-events-none invisible absolute whitespace-nowrap"
+          style={META_STYLE}
+        >
+          {short}
         </span>
       </span>
     </button>
