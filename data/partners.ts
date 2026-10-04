@@ -90,7 +90,7 @@ export const PARTNERS: Partner[] = [
         id: 'mokomoko-consult',
         headline: '$1 Mokomoko Property Consultation',
         price: { current: '$1 USD', original: '$25 USD' },
-        code: 'HILARY',
+        code: 'UNTANGLEDHILLS',
         goal: 'Explore how Mokomoko can help you actually buy a property in Japan.',
         cta: {
           label: 'Book a consultation',

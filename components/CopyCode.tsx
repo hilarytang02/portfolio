@@ -96,7 +96,7 @@ export default function CopyCode({ code }: { code: string }) {
 
   return (
     <span className="inline-flex items-center gap-2">
-      {/* Labelled, not bare: on its own a chip reading "HILARY" is just a word.
+      {/* Labelled, not bare: on its own a chip reading "UNTANGLEDHILLS" is just a word.
           The label says what it is, the divided "Copy" says it's actionable. */}
       <span
         className="text-ink-tertiary"
